@@ -3,6 +3,11 @@
     margin-left: 17.5%;
 }
 
+.main {
+    margin-top: 68px;
+    width: 60%;
+}
+
 .flex {
     display: flex;
     margin-left: 10%;
@@ -17,18 +22,18 @@
     margin-left: 3%;
 }
 
-.flex3 {
+.flex3,
+.flex4 {
     display: flex;
     flex-wrap: wrap;
     gap: 55px;
+    margin-bottom: 10%;
 }
 
-.forNom {
-    margin-top: 20px;
-
-}
-
-.forPrenom {
+.forNom,
+.forPrenom,
+.forMail,
+.forTel {
     margin-top: 20px;
 
 }
@@ -36,4 +41,12 @@
 input {
     width: 110%;
     height: 20px;
+}
+
+.inputTel {
+    width: 86%;
+}
+
+textarea {
+    resize: none;
 }
