@@ -49,3 +49,7 @@ input {
 textarea {
     resize: none;
 }
+
+.check {
+    width: 4%;
+}
