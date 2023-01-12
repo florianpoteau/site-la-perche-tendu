@@ -25,70 +25,78 @@
 
         <!-- formulaire a droite -->
 
-        <div class="flex2">
+        <main>
 
-            <h2 class="h2">Nous Contacter:</h2>
+            <div class="flex2">
 
-            <!-- Flex qui contient nom + prénom -->
+                <h2 class="h2">Nous Contacter:</h2>
 
-            <div class="flex3">
+                <!-- Flex qui contient nom + prénom -->
+                <form action="post">
+                    <div class="flex3">
 
-                <!-- Nom formulaire -->
+                        <!-- Nom formulaire -->
 
-                <div class="forNom">
-                    <label for="nom">Entrez votre nom:</label>
+                        <div class="forNom">
+                            <label for="nom">Entrez votre nom:</label>
+                            <br>
+                            <input type="text" name="nom" placeholder="Votre nom" pattern="\w{3,16}" required>
+                        </div>
+
+                        <!-- Prénom formulaire -->
+
+                        <div class="forPrenom">
+                            <label for="nom">Entrez votre prénom:</label>
+                            <br>
+                            <input type="text" name="nom" placeholder="Votre prénom" pattern="\w{3,16}" required>
+                        </div>
+                    </div>
+
+                    <!-- flex pour mail et tel -->
+
+                    <div class="flex4">
+
+                        <!-- E-mail -->
+
+                        <div class="forMail">
+                            <label for="mail">Entrez votre mail:</label>
+                            <br>
+                            <input type="email" name="mail" placeholder="Votre mail"
+                                pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" required>
+                        </div>
+
+                        <!-- Tel -->
+
+                        <div class="forTel">
+                            <label for="tel">Entrez votre numéro de tél:</label>
+                            <br>
+                            <input class="inputTel" type="tel" name="tel" id="name"
+                                placeholder="Votre numéro de téléphone:" pattern="[0-9]{10}" required>
+                        </div>
+                    </div>
+
+                    <!-- TextArea -->
+
+                    <label for=" textarea">Entrez votre message ici:</label>
                     <br>
-                    <input type="text" name="nom" placeholder="Votre nom">
-                </div>
+                    <textarea name="textarea" id="textarea" cols="54" rows="10" placeholder="Entrez votre message ici"
+                        minlength="30" required></textarea>
 
-                <!-- Prénom formulaire -->
+                    <!-- Checkbox -->
+                    <div class="flex5">
 
-                <div class="forPrenom">
-                    <label for="nom">Entrez votre prénom:</label>
-                    <br>
-                    <input type="text" name="nom" placeholder="Votre prénom">
-                </div>
+                        <input class="check" type="checkbox" name="checkbox" id="checkbox" required>
+                        <label class="politique" for="checkbox">J'accepte la politique de confidentialité</label>
+                        </input>
+
+
+                        <a class="bouton" href="contact.html"><button class="bouton1">Envoyé
+                            </button></a>
+                    </div>
+
             </div>
-
-            <!-- flex pour mail et tel -->
-
-            <div class="flex4">
-
-                <!-- E-mail -->
-
-                <div class="forMail">
-                    <label for="mail">Entrez votre mail:</label>
-                    <br>
-                    <input type="text" name="mail" placeholder="Votre mail">
-                </div>
-
-                <!-- Tel -->
-
-                <div class="forTel">
-                    <label for="tel">Entrez votre numéro de téléphone</label>
-                    <br>
-                    <input class="inputTel" type="tel" name="tel" id="name" placeholder="Votre numéro de téléphone:">
-                </div>
-            </div>
-
-            <!-- TextArea -->
-
-            <label for="textarea">Entrez votre message ici:</label>
-            <br>
-            <textarea name="textarea" id="textarea" cols="54" rows="10"
-                placeholder="Entrez votre message ici"></textarea>
-
-            <!-- Checkbox -->
-
-            <div class="checkbox">
-                <input class="check" type="checkbox" name="checkbox" id="checkbox">
-                <label for="checkbox">Accepter la politique de confidentialité </label>
-                </input>
-
-
-
-            </div>
-        </div>
+            </form>
+        </main>
     </div>
 </body>
 
