@@ -34,9 +34,40 @@ header #head-wrap .wrap {
     justify-content: space-between;
 
 }
+
 span {
     color: rgb(198, 198, 243);
 }
+
+/* clignotant  */
+
+blink {
+    -webkit-animation: 2s linear infinite condemed_blink_effect; 
+    animation: 2s linear infinite condemed_blink_effect;
+  }
+  @-webkit-keyframes condemed_blink_effect { 
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  @keyframes condemed_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  
 .p-bienvenue {
 
     font-family: 'Oswald', sans-serif;
@@ -1079,6 +1110,4 @@ label
     width: 30%;
     background-color: #405670;
     }
-
-
 }
