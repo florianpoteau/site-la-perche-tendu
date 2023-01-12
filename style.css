@@ -708,7 +708,8 @@ opacity: 0.75;
 
 .event-footer {
 
-    background-color: #31455d;
+    background-color: #5082beb3;
+    border-radius: 14px;
     color: #fff;
     text-decoration: none;
     padding: 14px 15px;
@@ -720,7 +721,7 @@ opacity: 0.75;
 
 .event-footer:hover {
 
-    background-color: #31455d;
+    background-color: #0752ad;
     color: #fbb52D;
     text-decoration: none;
     padding: 14px 15px;
