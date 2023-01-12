@@ -33,6 +33,9 @@ header #head-wrap .wrap {
     justify-content: space-between;
 
 }
+.img-logo{
+width: 15%;
+}
 
 .p-bienvenue {
 
@@ -74,7 +77,9 @@ img.seek-img {
 
 }
 
-
+span{
+    color: rgb(185, 188, 193);
+}
  nav 
 {
     /* margin: 100px auto; */
