@@ -262,8 +262,7 @@ h2.titre-liens {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90px;
-    height: 90px;
+    width: 50px;
     border-radius: 50%;
     margin: 0 auto;
     position: relative;
