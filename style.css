@@ -15,7 +15,7 @@ body{
 header.sticky {
    
     width: 100%;
-    background: rgb(241, 87, 87);
+    background:#FF5F5F;
 }
 
 header #head-wrap {
@@ -51,6 +51,11 @@ span {
     flex: 1;
     display: flex;
     justify-content: center;
+}
+
+.img-logo{
+    margin-top: -10px;
+    width: 140px;
 }
 
 .home-img {
@@ -135,11 +140,11 @@ nav a:hover
 
 
 section .bg-main {
-    background-image: url(medias/brussels.png);
+    background-image: url(/images/accueil.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 850px;
     box-shadow: 0px 4px 6px rgb(0 0 0 / 10%);
     display: flex;
     justify-content: center;
