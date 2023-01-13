@@ -1,3 +1,8 @@
+html {
+    background-color: #FBB52D;
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
@@ -130,8 +135,8 @@ nav a:hover {
 }
 
 .image {
-    width: 65%;
-    margin-left: 17.5%;
+    width: 52.2%;
+    margin-left: 25%;
 }
 
 .main {
@@ -140,8 +145,10 @@ nav a:hover {
 }
 
 main {
+
+    background-color: rgb(223 120 20 / 55%);
     width: 39%;
-    margin-top: 1.5%;
+    margin-top: 2%;
     border: 1.5px solid black;
     border-radius: 2%;
     box-shadow: 0px 0px 6px rgb(0 0 0 / 64%);
