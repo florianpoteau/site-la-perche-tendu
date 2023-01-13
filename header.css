@@ -1,0 +1,225 @@
+/* ==== CODE CSS ==== */
+
+header.sticky {
+
+    width: 100%;
+    background: white;
+}
+
+header #head-wrap {
+
+    max-width: 100%;
+    height: 80px;
+    padding: 10px 0;
+}
+
+header #head-wrap .wrap {
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.p-bienvenue {
+
+    font-family: 'Oswald', sans-serif;
+    color: #31455d;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.home-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bienvenue {
+    flex: 1;
+    text-align: center;
+    border-left: 1px dotted#31455d;
+    border-right: 1px dotted #31455d;
+
+}
+
+
+nav 
+{
+    /* margin: 100px auto; */
+    width: 100%;
+    height: 60px;
+    background: #48435C;
+}
+ 
+nav .main_pages 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+nav .main_pages a 
+{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    text-decoration: none;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+ 
+nav a:hover 
+{
+
+    background: #fbb52d;
+    color: #303030
+}
+
+
+.icons {
+    flex: 1;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.icons a {
+    color: #31455d;
+    text-decoration: none;
+}
+
+.icons a:hover {
+
+    color:#fbb52d;
+}
+
+label, #toggle
+{
+    display: none;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media screen and (max-width: 480px) {
+
+
+    header.sticky {
+
+        width: 100%;
+        background: white;
+    }
+    
+    header #head-wrap {
+    
+        display: flex;
+        flex-direction: column;
+    }
+    
+   
+    .p-bienvenue {
+    
+        font-family: 'Oswald', sans-serif;
+        color: #31455d;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+    
+    }
+    
+    .logo {
+        order: 1;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .home-img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .bienvenue {
+        display: none;
+    
+    }
+
+
+    nav
+    {
+        height: 60px;
+    }
+ 
+    nav .main_pages 
+    {
+        display: none;
+        flex-direction: column;
+        background: #31455d;
+        height: 220px;
+    }
+ 
+    nav .main_pages a {
+        width: 100%;
+        background: #5A5766;
+        border-bottom: 1px dotted;
+        color: white;
+        z-index: 99;
+    }
+
+    nav .main_pages a:hover {
+        background: #48435C;
+    }
+
+    
+ 
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+ 
+    #toggle:checked + .main_pages {
+        display: flex;
+    }
+
+
+
+    
+    
+    .icons {
+        order: 2;
+        flex: 1;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .icons a {
+        color: #31455d;
+        text-decoration: none;
+    }
+    
+    .icons a:hover {
+    
+        color:#fbb52d;
+    }
+
+}
