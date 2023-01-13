@@ -1,4 +1,5 @@
 html{
+
     background-color: #FBB52D;
     scroll-behavior: smooth;
 }
@@ -113,7 +114,6 @@ img.seek-img {
 
 }
 
-
  nav 
 {
     /* margin: 100px auto; */
@@ -159,6 +159,7 @@ nav a:hover
 .icons a {
     color: #31455d;
     text-decoration: none;
+
 }
 
 .icons a:hover {
@@ -1111,4 +1112,15 @@ label
     width: 30%;
     background-color: #405670;
     }
+}
+
+.logoandes{
+    /* logo andes les epiceries solidaires  */
+    width: 20%;
+    margin-left: 8%;
+}
+.logobank{
+    /* logo bank la banque alimentaire  */
+    margin-top: -10%;
+    width: 10%;
 }
