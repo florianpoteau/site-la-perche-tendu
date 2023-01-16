@@ -5,7 +5,6 @@ html{
 }
 body{
     margin: 0;
-    color: #7e7e7e;
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
 }
@@ -37,7 +36,7 @@ header #head-wrap .wrap {
 }
 
 span {
-    color: rgb(198, 198, 243);
+    color: rgb(131, 209, 249);
 }
 
 /* clignotant  */
@@ -72,7 +71,7 @@ blink {
 .p-bienvenue {
 
     font-family: 'Oswald', sans-serif;
-    color: #31455d;
+    color: #eceff3;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
@@ -274,7 +273,7 @@ form.seek {
 h2.titre-liens {
 
     font-family: 'Oswald', sans-serif;
-    color: #31455d;
+    color: #1d45d5;
     font-size: 25px;
     text-transform: uppercase;
     text-align: center;
@@ -1127,3 +1126,5 @@ label
     background-color: #e1b5b5;
     border-radius: 14px;
 }
+
+/* style de carte de payment  */

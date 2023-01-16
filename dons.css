@@ -157,7 +157,6 @@ label, #toggle
     
     }
 
-
     nav
     {
         height: 60px;
@@ -222,5 +221,13 @@ label, #toggle
     
         color:#fbb52d;
     }
+
+}
+
+a p.event-text{
+align-items: center;
+table-layout: fixed;
+text-align: justify ;
+border-bottom: .3rem solid;
 
 }
