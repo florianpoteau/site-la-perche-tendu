@@ -468,7 +468,9 @@ a p.event-text {
     width: 25%;
     padding: 1%;
 }
-
+.event-footer  img{
+    width: 20%;
+}
 .event a {
 
     text-decoration: none;
@@ -639,11 +641,17 @@ font-size: 24px;
 
 .footerp{
     text-align: center;
+
 }
+
 
 footer a{
     margin: 0 auto;
     display: block;
+}
+
+.footerp a {
+    color: red;
 }
 
 .footerbutton{
