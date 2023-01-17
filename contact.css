@@ -65,7 +65,6 @@ span {
 }
 
 img.seek-img {
-
     display: block;
     max-width: 100%;
     height: auto;
@@ -145,7 +144,7 @@ nav a:hover {
 }
 
 main {
-
+    
     background-color: rgb(223 120 20 / 55%);
     width: 39%;
     margin-top: 2%;
