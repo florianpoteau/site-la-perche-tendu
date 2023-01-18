@@ -222,12 +222,14 @@ textarea {
 
 .bouton {
     margin-left: 15%;
+
 }
 
 .bouton1 {
-    width: 180%;
+    width: 40%;
     cursor: pointer;
-    height: 150%;
+    height: 100%;
+    margin-left: 15%;
 }
 
 .label1,
@@ -237,6 +239,7 @@ textarea {
 .label5,
 .politique {
     display: block;
+    margin-bottom: 4%;
 }
 
 .politique {
@@ -358,6 +361,59 @@ footer a {
 @florian */
 
 @media screen and (max-width: 480px) {
+
+
+
+    .main {
+        display: none;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    main {
+        width: 70%;
+    }
+
+    .label1,
+    .label2,
+    .label3,
+    .label4,
+    .label5,
+    .politique {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .forPrenom,
+    .forTel {
+        margin-top: 0;
+    }
+
+    .forMail {
+        margin-top: 20%;
+    }
+
+    main {
+        padding-bottom: 15%;
+    }
+
+    .check {
+        margin-top: 15%;
+        margin-right: 80%;
+        width: 80%;
+    }
+
+    .politique {
+        margin-bottom: 10%;
+    }
+
+    .bouton {
+        margin-left: 24%;
+    }
+
+    /* footer */
 
     .footeradresse {
 
