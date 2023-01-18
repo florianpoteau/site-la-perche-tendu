@@ -16,7 +16,7 @@ function getimage() {
             //const dataArray = Array.from(allFood);
             console.log("AllFood", allFood);
 
-            renderimage(allFood);
+            // renderimage(allFood);
         })
         .catch((err) => {
             console.error(err);

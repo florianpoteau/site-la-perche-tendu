@@ -147,7 +147,7 @@ nav a:hover {
 main {
 
     background-color: rgb(223 120 20 / 55%);
-    width: 39%;
+    width: 40%;
     margin-top: 2%;
     border: 1.5px solid black;
     border-radius: 2%;
@@ -189,7 +189,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 110%;
 }
 
 .forNom,
@@ -206,7 +206,7 @@ input {
 }
 
 .inputTel {
-    width: 117%;
+    width: 100%;
 }
 
 textarea {
@@ -230,6 +230,149 @@ textarea {
     height: 150%;
 }
 
+.label1,
+.label2,
+.label3,
+.label4,
+.label5,
+.politique {
+    display: block;
+}
+
 .politique {
     margin-top: 1%;
+}
+
+/* footer */
+
+footer {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 4%;
+}
+
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* gap: 1px; */
+}
+
+.footeradresse {
+    width: 50%;
+    background-color: #31455d;
+    color: white;
+    /* min-height: 30vh; */
+    padding-bottom: 10px;
+}
+
+.footerh2 {
+    text-align: center;
+}
+
+.footerp {
+    text-align: center;
+}
+
+footer a {
+    margin: 0 auto;
+    display: block;
+}
+
+.footerbutton {
+    text-decoration: none;
+}
+
+.footerbutton1 {
+    padding: 10px 50% 10px 14%;
+    margin-left: 20%;
+    cursor: pointer;
+    width: 20%;
+    height: 15%;
+}
+
+.footerbutton1:hover {
+    opacity: 0.75;
+}
+
+.footerhoraire {
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    background-color: #31455d;
+    color: white;
+
+}
+
+.footercopyright {
+    text-align: center;
+    flex: 1;
+    background-color: #fbb52D;
+    color: white;
+}
+
+.footercopyright li {
+
+    display: inline-block;
+}
+
+.footercopyright a:hover {
+    text-decoration: none;
+}
+
+.footercopyright .mentions {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footercopyright p {
+
+    text-align: center;
+}
+
+.event-footer {
+
+    background-color: #5082beb3;
+    border-radius: 14px;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 15px;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+
+}
+
+.event-footer:hover {
+
+    background-color: #0752ad;
+    color: #fbb52D;
+    text-decoration: none;
+    padding: 14px 15px;
+    width: 20%;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+}
+
+/* ==== RESPONSIVE A VENIR ====
+@florian */
+
+@media screen and (max-width: 480px) {
+
+    .footeradresse {
+
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .footerhoraire {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    a.event-footer {
+        width: 30%;
+        background-color: #405670;
+    }
+
 }
