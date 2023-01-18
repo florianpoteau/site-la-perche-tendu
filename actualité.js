@@ -1,6 +1,6 @@
 const image1Div = document.querySelector(".imageStrapi");
 const url = "http://localhost:1337/api/posts";
-let allFood = [];
+let allFood;
 init();
 
 
@@ -13,9 +13,10 @@ function getimage() {
         .then((data) => data.json())
         .then((result) => {
             allFood = result;
-            const dataArray = Array.from(allFood);
+            //const dataArray = Array.from(allFood);
             console.log("AllFood", allFood);
-            renderimage(dataArray);
+
+            renderimage(allFood);
         })
         .catch((err) => {
             console.error(err);
@@ -26,13 +27,16 @@ function getimage() {
 function renderimage(food) {
 
     let list = [];
-    food.forEach(f => {
-        const item = '<li>${' + f.title + '}</li>';
+    for (let f = 0; f < food; f++) {
+        const item = '<li>${' + f.texte + '}</li>';
         list = [...list, item];
-        list.push(f);
-    });
+    };
 
 
-    image1Div.innerHTML = '<ul>${' + list.join("") + '}</ul>';
+    image1Div.innerHTML = '<ul>${list.join("")}</ul>';
     console.log(list);
 }
+
+
+
+
