@@ -40,16 +40,6 @@ span {
     color: rgb(198, 198, 243);
 }
 
-.p-bienvenue {
-
-    font-family: 'Oswald', sans-serif;
-    color: #31455d;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-
-}
-
 .logo {
     flex: 1;
     display: flex;
@@ -203,4 +193,11 @@ h1 {
     margin-top: 10%;
     margin-left: 2%;
     width: 20%;
+}
+.fa-phone {
+    color: rgb(16, 191, 191);
+}
+.fa-envelope{
+    color: rgb(16, 191, 191);
+
 }
