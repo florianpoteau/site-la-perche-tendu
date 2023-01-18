@@ -1,60 +1,83 @@
-<!-- ==== CODE HEADER A INSERER DANS VOS PAGES ==== -->
-<link rel="stylesheet" href="/dons.css">
-    <link rel="shortcut icon" type="image/png" href="/images/logoweb.png">
-<header class="sticky">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
-    <link rel="stylesheet" href="style.css">
-    <title>PERCHE TENDUE</title>
-    <div id="head-wrap">
+<!DOCTYPE html>
 
-        <div class="wrap">
+<html lang="fr">
 
-            <a class="logo" href="index.html">
+    <head>
 
-                <img class="img-logo" src="/images/logo.png" alt="logo perche tendue">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            </a>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap" rel="stylesheet">
 
-            <div class="bienvenue">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    
+        <title>PERCHE TENDUE</title>
+        <link rel="shortcut icon" type="images/png" href="/images/logo.png">
 
-                <p class="p-bienvenue">ASSOCIATION SOLIDAIRE -    <blink><span>LA PERCHE TENDUE</span></blink>   - </p>
+    </head>
+ 
+    <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <header class="sticky">
+
+            <div id="head-wrap">
+
+                <div class="wrap">
+
+                    <a class="logo" href="index.html">
+
+                        <img class="img-logo" src="/images/logo.png" alt="logo perche tendue">
+                        
+
+                    </a>
+
+                    <div class="bienvenue">
+
+                        <p class="p-bienvenue">ASSOCIATION SOLIDAIRE -    <blink><span>LA PERCHE TENDUE</span></blink>   - </p>
+
+                    </div>
+
+                    <div class="icons">
+
+                        <a href="https://www.instagram.com/bxl_online/" class="fa fa-instagram"></a>
+                        <a href="https://www.facebook.com/www.laperchetendue.fr" class="fa fa-facebook"></a>
+                        <a href="https://andes-france.com/" > <img class ="logoandes" src ="/images/andes.png"></a>
+                        <a href="https://www.banquealimentaire.org/" > <img class ="logobank" src ="/images/Logo-Banque-Alimentaire-removebg-preview.png"></a>
+
+
+                    </div>
+
+                </div>
 
             </div>
 
-            <div class="icons">
+            <nav>
 
-                <a href="https://www.instagram.com/bxl_online/" class="fa fa-instagram"></a>
-                <a href="https://www.facebook.com/www.laperchetendue.fr/" class="fa fa-facebook"></a>
-                <a href="https://andes-france.com/" > <img class ="logoandes" src ="/images/andes.png"></a>
-                <a href="https://www.banquealimentaire.org/" > <img class ="logobank" src ="/images/Logo-Banque-Alimentaire-removebg-preview.png"></a>
+                <label for="toggle">☰</label>
+                
+                <input type="checkbox" id="toggle">
+                    
+                <div class="main_pages">
 
-            </div>
+                    <a href="index.html">ACCUEIL</a>
+                    <a href="événement.html">QUI SOMMES NOUS</a>
+                    <a href="#">EPICERIE SOCIAL & SOLIDAIRE</a>
+                    <a href="#">ANTENNES</a>
+                    <a href="/dons.html">DONS</a>
+                    <a href="/actualité.html">ACTUALITES</a>
+                    <a href="Contact.html">CONTACT</a>
+                    
+                </div>
+                
+            </nav>
 
-        </div>
-
-    </div>
-
-    <nav>
-
-        <label for="toggle">☰</label>
-        
-        <input type="checkbox" id="toggle">
-            
-        <div class="main_pages">
-            
-            <a href="index.html">ACCUEIL</a>
-            <a href="événement.html">QUI SOMMES NOUS</a>
-            <a href="#">EPICERIE SOCIAL & SOLIDAIRE</a>
-            <a href="#">ANTENNES</a>
-            <a href="dons.html">DONS</a>
-            <a href="/actualité.html">ACTUALITES</a>
-            <a href="Contact.html">CONTACT</a>
-            
-        </div>
-        
-    </nav>
-
-</header>
+        </header>
 <body>
     <div id="root"></div>
 
@@ -222,5 +245,7 @@
         </div>
 
     </footer>
+    <script id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.0.0/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#3c546b" data-link="#fbb52D" data-moreinfo="Mentions_legales.html" data-message="Les cookies assurent le bon fonctionnement de notre site Internet. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>
+
 <script src="/dons.js"></script>  
 </body>
