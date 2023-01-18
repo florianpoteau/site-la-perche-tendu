@@ -110,6 +110,7 @@ label, #toggle
     display: none;
 }
 
+
 /* ===== RESPONSIVE ===== */
 
 @media screen and (max-width: 480px) {
@@ -228,5 +229,12 @@ align-items: center;
 table-layout: fixed;
 text-align: justify ;
 border-bottom: .3rem solid;
+
+}
+.fa-phone {
+    color: rgb(16, 191, 191);
+}
+.fa-envelope{
+    color: rgb(16, 191, 191);
 
 }
