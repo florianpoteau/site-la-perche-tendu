@@ -335,8 +335,6 @@ footer a {
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
 }
 
-
-
 @media screen and (max-width: 480px) {
 
     /* Header */
@@ -460,5 +458,79 @@ footer a {
         width: 30%;
         background-color: #405670;
     }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1000px) {
+
+    /* Body */
+
+    body {
+        font-size: 25px;
+    }
+
+    .image1 {
+        margin-top: 8%;
+    }
+
+    .imageactu1 {
+        width: 10%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .flexActu1 {
+        display: block;
+    }
+
+    .flexActu2 {
+        display: block;
+    }
+
+    hr {
+        display: block;
+        border-style: dashed;
+        margin-top: 15%;
+    }
+
+    .hr1,
+    .hr2 {
+        margin-top: 10%;
+    }
+
+    .textActu1,
+    .textActu2,
+    .textActu3,
+    .textActu4 {
+        margin: auto;
+        margin-top: 5%;
+        width: 85%;
+        text-align: center;
+    }
+
+    .imageactu2,
+    .imageactu3,
+    .imageactu4,
+    .imageactu1 {
+        margin: 15% 0% 6% 19%;
+        margin-top: 15%;
+        margin-left: 27%;
+        width: 45%;
+    }
+
+    .imageactu1 {
+        margin-top: 10%;
+    }
+
+    .textActu4 {
+        margin-bottom: 15%;
+    }
+
+
 
 }

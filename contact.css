@@ -427,9 +427,7 @@ footer a {
     /* Body */
 
     .image {
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 10%;
+        width: 52.2%;
 
     }
 
@@ -465,6 +463,7 @@ footer a {
     .forTel {
         margin-top: 0;
     }
+
 
     .forMail {
         margin-top: 20%;
@@ -503,5 +502,45 @@ footer a {
         width: 30%;
         background-color: #405670;
     }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .image {
+        margin-left: 24%;
+
+    }
+
+    .main {
+        display: none;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    main {
+        margin: auto;
+        margin-right: 25%;
+    }
+
+    .forPrenom,
+    .forTel {
+        margin-top: 0%;
+    }
+
+    .forPrenom {
+        margin-bottom: 11%;
+    }
+
+    #prenom {
+        width: 120%;
+    }
+
+    .inputTel {
+        width: 101%;
+    }
+
 
 }
