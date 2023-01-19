@@ -2,13 +2,13 @@
 
 header.sticky {
 
-    width: 100%;
+    width: 50%;
     background: white;
 }
 
 header #head-wrap {
 
-    max-width: 100%;
+    max-width: 10%;
     height: 80px;
     padding: 10px 0;
 }
@@ -238,3 +238,29 @@ border-bottom: .3rem solid;
     color: rgb(16, 191, 191);
 
 }
+
+.button {
+    align-items: center;
+    text-decoration: none;
+    padding: 15px;
+    font-family: arial;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #20999d;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 44px;
+    border: 2px solid #FFFFFF;
+    box-shadow: 3px 3px 12px #444444;
+    -webkit-box-shadow: 3px 3px 12px #444444;
+    -moz-box-shadow: 3px 3px 12px #444444;
+    width: 100%;
+    }
+    
+    
+    .button:hover {
+    padding: 15px;
+    background-color: #1d0871;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+    }

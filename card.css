@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+*{
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+strong {
+  font-weight: bold;
+}
+
+body {
+  padding-top: 140px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+address {
+  font-size: 13px;
+  line-height: 140%;
+}
+
+header {
+  background: #333;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.donationCard {
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 50px;
+  max-width: 700px;
+  min-width: 240px;
+  width: 80%;
+}
+@media all and (max-width: 640px) {
+  .donationCard .donationCard {
+    width: 90%;
+  }
+}
+.donationCard input, .donationCard select {
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  height: 40px;
+  margin: 0 10px 0 5px;
+  padding: 0 5px;
+  width: 80px;
+}
+.donationCard select {
+  padding: 5px;
+  -webkit-appearance: none;
+}
+@media all and (max-width: 640px) {
+  .donationCard input {
+    width: 60px;
+  }
+}
+.donationCard .amount {
+  background: #096DC9;
+  border-radius: 4px 4px 0 0;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 80px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+.donationCard .amount input {
+  border-color: #053A68;
+  border-radius: 5px;
+  font-size: 28px;
+  height: 50px;
+}
+@media all and (max-width: 640px) {
+  .donationCard .amount .custom-hidden {
+    display: none;
+  }
+}
+@media all and (max-width: 30em) {
+  .donationCard .amount {
+    text-align: center;
+  }
+  .donationCard .amount .phone-hidden {
+    display: none;
+  }
+}
+.donationCard .options {
+  background: #FAFAFA;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+  padding: 20px;
+}
+.donationCard .options label {
+  color: #333;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.donationCard .options label.subscribe {
+  padding-top: 30px;
+}
+.donationCard .options label.subscribe input, .donationCard .options label.subscribe p {
+  float: left;
+}
+.donationCard .options label.subscribe input {
+  margin: 6px 8px;
+}
+.donationCard .options label.subscribe p {
+  font-size: 11px;
+  max-width: 80%;
+}
+.donationCard .options fieldset.sm {
+  float: left;
+  width: 49%;
+}
+.donationCard .options fieldset.sm:nth-of-type(odd) {
+  margin-right: 2%;
+}
+.donationCard .options .ccard {
+  border-top: 1px dashed #CCC;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.donationCard .options input, .donationCard .options select {
+  display: block;
+  margin: 0 0 12px;
+  width: 100%;
+}
+.donationCard .options input[type=checkbox] {
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
+.donationCard .options input[type=checkbox] + p {
+  float: left;
+}
+.donationCard .options button {
+  background: #09C66E;
+  border: 1px solid #06894C;
+  border-radius: 4px;
+  color: white;
+  clear: both;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  margin-top: 10px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+.donationCard .options button.donate {
+  background: #F8A11C;
+  border-color: #BC7A16;
+  box-shadow: inset 0 1px 2px #FC0, inset 0 -1px 2px #FC0;
+  font-size: 14px;
+  height: 30px;
+  margin-top: 0;
+}
+.donationCard .options aside:first-child {
+  border-right: 1px solid #CCC;
+  float: left;
+  padding-right: 20px;
+  width: 60%;
+}
+.donationCard .options .other {
+  float: left;
+  padding-left: 20px;
+  text-align: center;
+  width: 40%;
+}
+.donationCard .options .other ul h4 {
+  font-family: "Lato", Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.donationCard .options .other ul h4 ~ p {
+  font-size: 12px;
+  line-height: 150%;
+  text-align: left;
+}
+.donationCard .options .other li:not(:last-child) {
+  border-bottom: 1px solid #DDD;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+@media all and (max-width: 480px) {
+  .donationCard .options aside:first-child, .donationCard .options .other {
+    border-right: 0 none;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .donationCard .options aside:first-child {
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}

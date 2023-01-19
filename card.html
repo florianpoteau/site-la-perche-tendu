@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href ="/card.css">
+        <title>PERCHE TENDUE</title>
+        <link rel="shortcut icon" type="images/png" href="/images/logo.png">
+
+    </head>
+ 
+    <body>
+
+
+
+<div class="donationCard">
+  <div class="amount">
+    <h3><span class="custom-hidden">I'd like to</span> donate $<input id="edit-amount" type="text" placeholder="5"/> <span class="phone-hidden">to Bible.org</span></h3>
+  </div>
+  <div class="options">
+    <aside><form>
+      <label for="edit-firstname">First Name</label>
+      <input id="edit-firstname" type="text" />
+        
+      <label for="edit-lastname">Last Name</label>
+      <input id="edit-lastname" type="text" />
+        
+      <label for="edit-email">Email Address</label>
+      <input id="edit-email" type="email" />
+        
+      <label for="edit-address">Address</label>
+      <input id="edit-address" type="text" />      
+      <label for="edit-city">City</label>
+      <input id="edit-city" type="text" />
+        
+      <fieldset class="sm">
+        <label for="edit-address">State/Province</label>
+        <input class="sm" id="edit-address" type="text" />
+      </fieldset>
+      <fieldset class="sm">
+        <label for="edit-address">Zip Code</label>
+        <input id="edit-address" type="text" />
+      </fieldset>
+      
+      <label for="edit-country">Country</label>
+      <select id="edit-country"></select>
+      
+      <label for="edit-phone">Phone</label>
+      <input id="edit-phone" type="text" />
+      
+      <div class="ccard">
+        <label for="edit-cardnumber">Card Number</label>
+        <input id="edit-cardnumber" type="text" />
+        
+        <fieldset class="sm">
+          <label for="ccexpmonth">Exp. Month</label>
+          <select name="" id="ccexpmonth"></select>
+        </fieldset>
+        
+        <fieldset class="sm">
+          <label for="ccexpyear">Exp. Year</label>
+          <select name="" id="ccexpyear"></select>
+        </fieldset>
+        
+        <fieldset class="sm">
+          <label for="edit-cvs">CVS Code</label>
+          <input id="edit-cvs" type="text" />
+        </fieldset>
+        
+        <fieldset class="sm">
+          <label class="subscribe">
+            <input id="" type="checkbox" />
+            <p>Make This A Monthly Donation</p>
+          </label>
+        </fieldset>
+      </div>
+        
+      <button class="form-submit" id="edit-submit" >Donate ♥</button>
+    </form></aside>
+    
+    <aside class="other">
+      <ul>
+        <li>
+          <p><i class="icon-paypal"></i> Donate via Paypal</p>
+          <button class="donate">Donate</button>
+        </li>
+        <li>
+          <p><i class="icon-phone"></i> Donate by Phone</p>
+          <p style="font-size:20px"><strong>214-580-1999</strong></p>
+        </li>
+        <li>
+          <p><i class="icon-envelope"></i> Send a check</p>
+          <address>
+            <strong>Biblical Studies Foundation</strong> <br />
+            1101 E. Arapaho Rd Ste 260 <br />
+            Richardson, TX 75081
+          </address>
+        </li>
+        <li>
+          <a href="#">About Us</a>
+        </li>
+        <li>
+          <h4>Where are your donations going?</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In totam voluptates aperiam quos iusto aspernatur ea delectus ipsa veritatis quo? Molestias, perferendis sit. Rem nesciunt distinctio maxime, voluptatum nobis doloremque?</p>
+        </li>
+      </ul>
+    </aside>
+    </div>
+</div>
+      <script src="/card.js"></script>
+</body>
+</html>
