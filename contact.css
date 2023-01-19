@@ -134,6 +134,8 @@ nav a:hover {
     color: #fbb52d;
 }
 
+/* body */
+
 .image {
     width: 52.2%;
     margin-left: 25%;
@@ -147,8 +149,9 @@ nav a:hover {
 main {
 
     background-color: rgb(223 120 20 / 55%);
-    width: 40%;
+    width: 50%;
     margin-top: 2%;
+    margin-right: 8%;
     border: 1.5px solid black;
     border-radius: 2%;
     box-shadow: 0px 0px 6px rgb(0 0 0 / 64%);
@@ -163,6 +166,7 @@ main {
     margin-left: 12%;
     margin-top: 50px;
 }
+
 
 .flex1 {
     width: 40%;
@@ -194,10 +198,15 @@ main {
 
 .forNom,
 .forPrenom,
-.forMail,
-.forTel {
+.forMail {
     margin-top: 20px;
 }
+
+.forTel {
+    margin-top: 18px;
+}
+
+
 
 input {
     width: 120%;
@@ -206,7 +215,11 @@ input {
 }
 
 .inputTel {
-    width: 100%;
+    width: 97%;
+}
+
+#prenom {
+    width: 115%;
 }
 
 textarea {
@@ -430,7 +443,7 @@ footer a {
 
 
     main {
-        width: 70%;
+        width: 80%;
     }
 
     .label1,
@@ -445,6 +458,7 @@ footer a {
 
     .inputTel {
         margin-bottom: 15%;
+        width: 89%;
     }
 
     .forPrenom,

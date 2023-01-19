@@ -113,18 +113,18 @@
                         <div class="forNom">
                             <label class="label1" for="nom">Entrez votre nom:</label>
 
-                            <input type="text" name="nom" placeholder="Votre nom" pattern="\w{3,16}" required>
+                            <input type="text" name="nom" id="nom" placeholder="Votre nom" pattern="\w{3,16}" required>
                         </div>
 
                         <!-- Prénom formulaire -->
 
                         <div class="forPrenom">
-                            <label class="label2" for="nom">Entrez votre prénom:</label>
+                            <label class="label2" for="prenom">Entrez votre prénom:</label>
 
-                            <input type="text" name="nom" placeholder="Votre prénom" pattern="\w{3,16}" required>
+                            <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" pattern="\w{3,16}"
+                                required>
                         </div>
                     </div>
-
                     <!-- flex pour mail et tel -->
 
                     <div class="flex4">
@@ -134,14 +134,14 @@
                         <div class="forMail">
                             <label class="label3" for="mail">Entrez votre mail:</label>
 
-                            <input type="email" name="mail" placeholder="Votre mail"
+                            <input type="email" name="mail" id="mail" placeholder="Votre mail"
                                 pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" required>
                         </div>
 
                         <!-- Tel -->
 
                         <div class="forTel">
-                            <label class="label4" for="tel">Entrez votre numéro de tél:</label>
+                            <label class="label4" for="name">Entrez votre numéro de tél:</label>
 
                             <input class="inputTel" type="tel" name="tel" id="name"
                                 placeholder="Votre numéro de téléphone:" pattern="[0-9]{10}" required>
@@ -150,7 +150,7 @@
 
                     <!-- TextArea -->
 
-                    <label class="label5" for=" textarea">Entrez votre message ici:</label>
+                    <label class="label5" for="textarea">Entrez votre message ici:</label>
                     <br>
                     <textarea name="textarea" id="textarea" cols="54" rows="10" placeholder="Entrez votre message ici"
                         minlength="30" required></textarea>
@@ -160,86 +160,88 @@
                         <input class="check" type="checkbox" name="checkbox" id="checkbox" required>
                         <label class="politique" for="checkbox">J'accepte la politique de
                             confidentialité</label>
-                        </input>
+
                     </div>
 
                     <a class="bouton" href="contact.html"><button class="bouton1">Envoyé
                         </button></a>
 
 
+
+                </form>
             </div>
-            </form>
         </main>
     </div>
-</body>
-
-<!-- ==== FOOTER HTML ==== -->
 
 
-<footer>
+    <!-- ==== FOOTER HTML ==== -->
 
-    <div class="footerflex">
 
-        <div class="footeradresse">
+    <footer>
 
-            <h2 class="footerh2">Adresse</h2>
+        <div class="footerflex">
 
-            <div class="footerp">
+            <div class="footeradresse">
 
-                <p>Association PERCHE TENDUE</p>
+                <h2 class="footerh2">Adresse</h2>
 
-                <p>Epicerie Solidaire de Lens</p>
+                <div class="footerp">
 
-                <p>+32 x xxx xx xx</p>
+                    <p>Association PERCHE TENDUE</p>
+
+                    <p>Epicerie Solidaire de Lens</p>
+
+                    <p>+32 x xxx xx xx</p>
+
+                </div>
+
+                <a href="https://www.google.com/maps/place/La+Perche+Tendue/@50.2847086,2.778035,16z/data=!4m10!1m2!2m1!1sperche+tendue+de+lens!3m6!1s0x47dd487ae1bef2e1:0xa5131200942828a2!8m2!3d50.2815065!4d2.7841856!15sChVwZXJjaGUgdGVuZHVlIGRlIGxlbnNaFyIVcGVyY2hlIHRlbmR1ZSBkZSBsZW5zkgEbYXNzb2NpYXRpb25fb3Jfb3JnYW5pemF0aW9u4AEA!16s%2Fg%2F11hyl6dx6y"
+                    class="event-footer">Adresse<img src="/images/google-maps.png" alt="map" /></a>
+
 
             </div>
 
-            <a href="https://www.google.com/maps/place/La+Perche+Tendue/@50.2847086,2.778035,16z/data=!4m10!1m2!2m1!1sperche+tendue+de+lens!3m6!1s0x47dd487ae1bef2e1:0xa5131200942828a2!8m2!3d50.2815065!4d2.7841856!15sChVwZXJjaGUgdGVuZHVlIGRlIGxlbnNaFyIVcGVyY2hlIHRlbmR1ZSBkZSBsZW5zkgEbYXNzb2NpYXRpb25fb3Jfb3JnYW5pemF0aW9u4AEA!16s%2Fg%2F11hyl6dx6y"
-                class="event-footer">Adresse<img src="/images/google-maps.png" /></a>
+            <div class="footerhoraire">
 
+                <h2 class="footerh2">Horaires</h2>
 
-        </div>
+                <p>Lundi : 8h30-12h30 / 13h30-17h00</p>
 
-        <div class="footerhoraire">
+                <p>Mardi : 8h30-12h30 / 13h30-17h00</p>
 
-            <h2 class="footerh2">Horaires</h2>
+                <p>Mercredi : 8h30-12h30 / 13h30-17h00</p>
 
-            <p>Lundi : 8h30-12h30 / 13h30-17h00</p>
+                <p>Jeudi : 8h30-12h30 / 13h30-17h00</p>
 
-            <p>Mardi : 8h30-12h30 / 13h30-17h00</p>
+                <p>Vendredi : 8h30-12h30 / 13h30-17h00</p>
 
-            <p>Mercredi : 8h30-12h30 / 13h30-17h00</p>
+            </div>
 
-            <p>Jeudi : 8h30-12h30 / 13h30-17h00</p>
+            <div class="footercopyright">
 
-            <p>Vendredi : 8h30-12h30 / 13h30-17h00</p>
+                <ul>
 
-        </div>
+                    <li>Copyright 2022 Ville de Bruxelles</li>
 
-        <div class="footercopyright">
+                    <li><a href="Mentions_legales.html" class="mentions">Mentions légales</a></li>
 
-            <ul>
+                    <li><a href="Cookie.html" class="mentions">Gestion des cookies</a></li>
 
-                <li>Copyright 2022 Ville de Bruxelles</li>
+                </ul>
 
-                <li><a href="Mentions_legales.html" class="mentions">Mentions légales</a></li>
-
-                <li><a href="Cookie.html" class="mentions">Gestion des cookies</a></li>
-
-            </ul>
+            </div>
 
         </div>
 
-    </div>
+    </footer>
 
-</footer>
+    <script id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.0.0/cookiebanner.min.js"
+        data-position="bottom" data-fg="#ffffff" data-bg="#3c546b" data-link="#fbb52D"
+        data-moreinfo="Mentions_legales.html"
+        data-message="Les cookies assurent le bon fonctionnement de notre site Internet. En utilisant ce dernier, vous acceptez leur utilisation."
+        data-linkmsg="En savoir plus"></script>
+    <script src="/java.js"></script>
 
-<script id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.0.0/cookiebanner.min.js"
-    data-position="bottom" data-fg="#ffffff" data-bg="#3c546b" data-link="#fbb52D" data-moreinfo="Mentions_legales.html"
-    data-message="Les cookies assurent le bon fonctionnement de notre site Internet. En utilisant ce dernier, vous acceptez leur utilisation."
-    data-linkmsg="En savoir plus"></script>
-<script src="/java.js"></script>
-
-
+</body>
 
 </html>

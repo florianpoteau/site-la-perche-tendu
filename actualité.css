@@ -125,6 +125,10 @@ label,
     margin-left: 25%;
 }
 
+hr {
+    display: none;
+}
+
 h1 {
     text-align: center;
 }
@@ -401,6 +405,7 @@ footer a {
     }
 
     hr {
+        display: block;
         border-style: dashed;
         margin-top: 15%;
     }
