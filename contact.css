@@ -236,10 +236,13 @@ textarea {
 .label2,
 .label3,
 .label4,
-.label5,
 .politique {
     display: block;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
+}
+
+.label5 {
+    display: block;
 }
 
 .politique {
@@ -362,7 +365,60 @@ footer a {
 
 @media screen and (max-width: 480px) {
 
+    /* Body */
 
+    body {
+        font-size: 12px;
+    }
+
+    /* Header */
+
+    nav {
+        height: 60px;
+    }
+
+    nav .main_pages {
+        display: none;
+        flex-direction: column;
+        background: #31455d;
+        height: 220px;
+    }
+
+    nav .main_pages a {
+        width: 100%;
+        background: #5A5766;
+        border-bottom: 1px dotted;
+        color: white;
+        z-index: 99;
+    }
+
+    nav .main_pages a:hover {
+        background: #48435C;
+    }
+
+    label {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+    #toggle:checked+.main_pages {
+        display: flex;
+    }
+
+    /* Body */
+
+    .image {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+
+    }
 
     .main {
         display: none;
@@ -371,6 +427,7 @@ footer a {
     .flex {
         display: block;
     }
+
 
     main {
         width: 70%;
@@ -384,6 +441,10 @@ footer a {
     .politique {
         width: 100%;
         font-size: 18px;
+    }
+
+    .inputTel {
+        margin-bottom: 15%;
     }
 
     .forPrenom,
@@ -407,11 +468,9 @@ footer a {
 
     .politique {
         margin-bottom: 10%;
+        width: 80%;
     }
 
-    .bouton {
-        margin-left: 24%;
-    }
 
     /* footer */
 

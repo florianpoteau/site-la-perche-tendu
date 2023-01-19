@@ -1,0 +1,49 @@
+/* A copier et a coller dans le max-width: 480px de vos page css */
+
+@media screen and (max-width: 480px) {
+
+    /* Body */
+
+    body {
+        font-size: 12px;
+    }
+
+    /* Header */
+
+    nav {
+        height: 60px;
+    }
+
+    nav .main_pages {
+        display: none;
+        flex-direction: column;
+        background: #31455d;
+        height: 220px;
+    }
+
+    nav .main_pages a {
+        width: 100%;
+        background: #5A5766;
+        border-bottom: 1px dotted;
+        color: white;
+        z-index: 99;
+    }
+
+    nav .main_pages a:hover {
+        background: #48435C;
+    }
+
+    label {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+    #toggle:checked+.main_pages {
+        display: flex;
+    }
