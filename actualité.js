@@ -1,6 +1,6 @@
 const image1Div = document.querySelector(".imageStrapi");
 const url = "http://localhost:1337/api/posts";
-let allFood;
+let allFood = [];
 init();
 
 

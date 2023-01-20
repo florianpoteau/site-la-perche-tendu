@@ -38,7 +38,7 @@ header #head-wrap .wrap {
 .p-bienvenue {
 
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: #eceff3;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
@@ -152,14 +152,14 @@ h1 {
 }
 
 .imageactu2 {
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: 5%;
     width: 25.5%;
     height: 50%;
 }
 
 .textActu2 {
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: 2%;
     width: 20%;
 }
