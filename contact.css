@@ -125,11 +125,18 @@ nav a:hover {
 .image {
     width: 52.2%;
     margin-left: 25%;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #f79809;
+    border: #31455d solid 4px;
 }
 
 .main {
     margin-top: 4%;
     width: 80%;
+    border-radius: 24px;
+    padding: 4px;
+    border: #31455d solid 4px;
 }
 
 main {
