@@ -3,7 +3,6 @@ const url = "http://localhost:1337/api/posts";
 let allFood = [];
 init();
 
-
 function init() {
     getimage();
 }
@@ -33,7 +32,7 @@ function renderimage(food) {
     };
 
 
-    image1Div.innerHTML = '<ul>${list.join("")}</ul>';
+    image1Div.innerHTML = '<ul>${' + list.join("") + '}</ul>';
     console.log(list);
 }
 
