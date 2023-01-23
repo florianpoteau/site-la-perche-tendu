@@ -3,7 +3,6 @@ const image2Div = document.getElementById("dateactu1");
 const imageStrapi1 = document.querySelector(".imageStrapi");
 const url = "http://localhost:1337/api/posts";
 const image2 = "http://localhost:1337/api/posts?populate=*";
-const image3 = "http://localhost:1337/api/upload/files";
 let allactu = [];
 init();
 
@@ -43,13 +42,16 @@ function getimage() {
 
 
 function getimage1() {
-    fetch("http://localhost:1337/api/posts?populate=image")
+    fetch("http://localhost:1337/api/posts?populate=*")
 
         .then((data) => data.json())
         .then((result) => {
             allactu = result;
             console.log("Allactu", allactu);
-            imageStrapi1.innerHTML = `${JSON.stringify(allactu.url)}`;
+            // imageStrapi1.src = "http://localhost:1337/uploads/Actualite1_d5c72094f9.png"
+            imageStrapi1.src = "http://localhost:1337" + `${allactu.data[0].attributes.image.data[0].attributes.formats.thumbnail.url}`;
+            console.log(imageStrapi1.src);
+            console.log("AllActu", allactu.data);
 
         })
         .catch((err) => {
