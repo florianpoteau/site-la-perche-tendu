@@ -129,6 +129,8 @@ nav a:hover {
     padding:10px;
     width: 50%;
     margin-left: 25%;
+    padding: 4px;
+    box-shadow: 4px 6px 6px 1px rgba(86, 86, 83, 0.286);
 }
 
 h1 {
@@ -144,6 +146,10 @@ h1 {
 .imageactu1 {
     margin-top: 5%;
     margin-left: 3%;
+    padding: 4px;
+    border-radius: 24px;
+    background-color: #f79809;
+    border: #31455d solid 4px;
 }
 
 .textActu1 {
@@ -157,6 +163,10 @@ h1 {
     margin-left: 5%;
     width: 21.5%;
     height: 50%;
+    padding: 4px;
+    border-radius: 24px;
+    background-color: #f79809;
+    border: #31455d solid 4px;
 }
 
 .textActu2 {
@@ -169,6 +179,10 @@ h1 {
     margin-top: 10%;
     margin-left: 3%;
     width: 20%;
+    padding: 4px;
+    border-radius: 24px;
+    background-color: #f79809;
+    
 }
 
 .flexActu2 {
@@ -187,6 +201,10 @@ h1 {
     margin-top: 10%;
     margin-left: 5%;
     width: 21.5%;
+    padding: 4px;
+    border-radius: 24px;
+    background-color: #f79809;
+    border: #31455d solid 4px;
 }
 
 .textActu4 {
