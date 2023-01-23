@@ -217,10 +217,7 @@ header {
 /* style header */
 /* ==== CODE CSS ==== */
 
-header.sticky {
-   
-  background:#FF5F5F;
-}
+
 
 header #head-wrap {
 
@@ -231,12 +228,7 @@ header #head-wrap {
 
 header #head-wrap .wrap {
   background-color: #FF5F5F;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  height: -4%;
+  height: 90%;
 }
 
 .p-bienvenue {
@@ -262,9 +254,7 @@ header #head-wrap .wrap {
 }
 nav 
 {
-  margin: 2% auto; 
-  width: 100%;
-  height: 50px;
+  margin-top: -2%;
   background: #48435C;
 }
 

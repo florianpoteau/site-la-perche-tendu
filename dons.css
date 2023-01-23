@@ -200,11 +200,6 @@ label, #toggle
     #toggle:checked + .main_pages {
         display: flex;
     }
-
-
-
-    
-    
     .icons {
         order: 2;
         flex: 1;
