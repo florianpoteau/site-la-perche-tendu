@@ -36,7 +36,6 @@ header {
   border-radius: 5px;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.1);
   margin: 0 auto 50px;
-  max-width: 700px;
   min-width: 240px;
   width: 80%;
 }
@@ -67,10 +66,10 @@ header {
 .donationCard .amount {
   background: #096DC9;
   border-radius: 4px 4px 0 0;
-  color: white;
+  color: #a38b8b;
   font-size: 20px;
   font-weight: bold;
-  line-height: 80px;
+  line-height: 30px;
   padding: 0 20px;
   text-transform: uppercase;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
@@ -123,7 +122,7 @@ header {
 }
 .donationCard .options fieldset.sm {
   float: left;
-  width: 49%;
+  width: 30%;
 }
 .donationCard .options fieldset.sm:nth-of-type(odd) {
   margin-right: 2%;
