@@ -1,6 +1,6 @@
 html{
 
-    background-color: #FBB52D;
+    background-color: rgb(251, 246, 236);
     scroll-behavior: smooth;
 }
 body{
@@ -15,7 +15,7 @@ body{
 header.sticky {
    
     width: 100%;
-    background:#FF5F5F;
+    background:red;
 }
 
 header #head-wrap {
@@ -36,7 +36,7 @@ header #head-wrap .wrap {
 }
 
 span {
-    color: rgb(131, 209, 249);
+    color: blue;
 }
 
 /* clignotant  */
@@ -117,7 +117,7 @@ img.seek-img {
     /* margin: 100px auto; */
     width: 100%;
     height: 60px;
-    background: #48435C;
+    background: blue;
 }
  
 nav .main_pages 
