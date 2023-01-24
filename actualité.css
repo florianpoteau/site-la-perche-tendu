@@ -143,6 +143,10 @@ h1 {
     width: 20%;
     margin-top: 5%;
     margin-left: 3%;
+    padding: 4px;
+    border-radius: 24px;
+    background-color: #f79809;
+    border: #31455d solid 4px;
 }
 
 .textActu1 {
@@ -152,10 +156,14 @@ h1 {
 }
 
 .imageactu2 {
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: 5%;
-    width: 25.5%;
+    width: 21.5%;
     height: 50%;
+    padding: 4px;
+    border-radius: 24px;
+    background-color: #f79809;
+    border: #31455d solid 4px;
 }
 
 .textActu2 {
@@ -168,7 +176,10 @@ h1 {
     margin-top: 10%;
     margin-left: 3%;
     width: 30%;
-    height: 20%;
+    padding: 4px;
+    border-radius: 24px;
+    background-color: #f79809;
+    border: #31455d solid 4px;
 }
 
 .flexActu2 {
@@ -187,7 +198,11 @@ h1 {
 .imageactu4 {
     margin-top: 10%;
     margin-left: 5%;
-    width: 16%;
+    width: 15%;
+    padding: 4px;
+    border-radius: 24px;
+    background-color: #f79809;
+    border: #31455d solid 4px;
 }
 
 .textActu4 {

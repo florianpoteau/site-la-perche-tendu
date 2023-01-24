@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "requests",
+  "info": {
+    "singularName": "request",
+    "pluralName": "requests",
+    "displayName": "request"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "tel": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
