@@ -86,7 +86,8 @@ blink {
 
 .img-logo{
     margin-top: -10px;
-    width: 140px;
+    width: 90px;
+    border-radius: 50%;
 }
 
 .home-img {
