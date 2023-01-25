@@ -105,9 +105,10 @@
                 <h2 class="h2">Nous Contacter:</h2>
 
                 <!-- Flex qui contient nom + prénom -->
-                <form action="post">
-                    <div class="flex3">
 
+                <div class="flex3">
+
+                    <form id="addform">
                         <!-- Nom formulaire -->
 
                         <div class="forNom">
@@ -124,47 +125,48 @@
                             <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" pattern="\w{3,16}"
                                 required>
                         </div>
-                    </div>
-                    <!-- flex pour mail et tel -->
+                </div>
+                <!-- flex pour mail et tel -->
 
-                    <div class="flex4">
+                <div class="flex4">
 
-                        <!-- E-mail -->
+                    <!-- E-mail -->
 
-                        <div class="forMail">
-                            <label class="label3" for="mail">Entrez votre mail:</label>
+                    <div class="forMail">
+                        <label class="label3" for="email">Entrez votre mail:</label>
 
-                            <input type="email" name="mail" id="mail" placeholder="Votre mail"
-                                pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" required>
-                        </div>
-
-                        <!-- Tel -->
-
-                        <div class="forTel">
-                            <label class="label4" for="name">Entrez votre numéro de tél:</label>
-
-                            <input class="inputTel" type="tel" name="tel" id="name"
-                                placeholder="Votre numéro de téléphone:" pattern="[0-9]{10}" required>
-                        </div>
+                        <input type="email" name="email" id="email" placeholder="Votre mail">
                     </div>
 
-                    <!-- TextArea -->
+                    <!-- Tel -->
 
-                    <label class="label5" for="textarea">Entrez votre message ici:</label>
-                    <br>
-                    <textarea name="textarea" id="textarea" cols="54" rows="10" placeholder="Entrez votre message ici"
-                        minlength="30" required></textarea>
+                    <div class="forTel">
+                        <label class="label4" for="tel">Entrez votre numéro de tél:</label>
 
-                    <!-- Checkbox -->
-                    <div class="flex5">
-                        <input class="check" type="checkbox" name="checkbox" id="checkbox" required>
-                        <label class="politique" for="checkbox">J'accepte la politique de
-                            confidentialité</label>
-
+                        <input class="inputTel" type="number" name="tel" id="tel"
+                            placeholder="Votre numéro de téléphone:" pattern="[0-9]{10}" required>
                     </div>
+                </div>
 
-                    <a class="bouton" href="contact.html"><button class="bouton1">Envoyé
-                        </button></a>
+                <!-- TextArea -->
+
+                <label class="label5" for="textarea">Entrez votre message ici:</label>
+                <br>
+                <textarea name="textarea" id="textarea" cols="54" rows="10" placeholder="Entrez votre message ici"
+                    minlength="30" required></textarea>
+
+                <!-- Checkbox -->
+                <div class="flex5">
+                    <input class="check" type="checkbox" name="checkbox" id="checkbox" required>
+                    <label class="politique" for="checkbox">J'accepte la politique de
+                        confidentialité</label>
+
+                </div>
+
+                <!-- <a class="bouton" href="contact.html"> -->
+                <button type="submit" class="bouton1">Envoyé
+                </button>
+                <!-- </a> -->
 
 
 
@@ -241,7 +243,9 @@
         data-message="Les cookies assurent le bon fonctionnement de notre site Internet. En utilisant ce dernier, vous acceptez leur utilisation."
         data-linkmsg="En savoir plus"></script>
     <script src="/java.js"></script>
-    <script src="contact.js" defer></script>
+    <script src="contact.js"></script>
 </body>
 
 </html>
+
+<!-- pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}"  -->

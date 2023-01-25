@@ -4,7 +4,8 @@
   "info": {
     "singularName": "request",
     "pluralName": "requests",
-    "displayName": "request"
+    "displayName": "request",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,14 +18,17 @@
     "prenom": {
       "type": "string"
     },
-    "mail": {
+    "email": {
       "type": "email"
     },
     "tel": {
       "type": "integer"
     },
-    "description": {
+    "textarea": {
       "type": "text"
+    },
+    "checkbox": {
+      "type": "boolean"
     }
   }
 }
