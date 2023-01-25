@@ -286,7 +286,7 @@ h2.titre-liens {
 
 }
 
-.picto {
+.pictosn {
 
     content: '';
     display: flex;
@@ -298,12 +298,12 @@ h2.titre-liens {
     position: relative;
 }
 
-.picto img {
+.pictosn img {
   box-shadow: 1px 1px 4px #444444;
   -webkit-box-shadow: 3px 3px 12px #444444;
   -moz-box-shadow: 3px 3px 12px #444444;
-    max-width: 260px;
-    max-height: 160px;
+    max-width: 460px;
+    max-height: 460px;
 }
 
 .link-title {
@@ -321,7 +321,7 @@ a.services-clic {
     text-decoration: none;
 }
 
-a.services-clic:hover .picto {
+a.services-clic:hover .pictosn {
 
     background-color: #fbb52d;
     transition: ease-in 0.5s;
@@ -466,6 +466,7 @@ a p.event-text {
 .event {
     width: 25%;
     padding: 1%;
+    text-align: center;
 }
 .event-footer  img{
     width: 20%;
@@ -486,26 +487,6 @@ a p.event-text {
 
 
 
-.hover-image-event {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    
-    transition: opacity 0.25s ease-in-out;
-    
-    background-color: rgba(0,0,0,0.3); 
-    color: white;
-    padding: 30px;
-    
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-  }
 
   .hover-image-event p {
     position: absolute;
@@ -514,7 +495,8 @@ a p.event-text {
     
   }
 
-  .hover-image-event p:hover {
+  .hover-image-event p:hover 
+  {
     background-color: #9999;
     transition: ease-in 0.5s;
 
@@ -542,16 +524,7 @@ a p.event-text {
     width: 100%;
 }
 
-.event-news {
 
-    background-color: #FBB52D;
-    margin-top: 30px;
-    padding: 14px 15px;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    margin: 30px auto;
-}
 
 .event-news a {
     text-decoration: none;
@@ -569,14 +542,16 @@ img.pdf {
 .overlay-image {
     position: relative; 
     display: inline-block;
+    width: 40%;
   }
   
   .overlay-image img {
     vertical-align: middle; 
+    border-radius: 50%;
   }
   
   .overlay-image .hover-image {
-
+    
     position: absolute;
     top: 0;
     bottom: 0;
@@ -586,12 +561,13 @@ img.pdf {
     transition: opacity 0.25s ease-in-out; 
     background-color: rgba(0,0,0,0.6); 
     color: white;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    border-radius: 50%;
   }
   
   .overlay-image:hover .hover-image {
@@ -599,7 +575,6 @@ img.pdf {
   }
 
   .hover-image h3 {
-
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -1087,7 +1062,6 @@ label
     }
 
     .overlay-image .hover-image {
-
         opacity: 1;
     }
 

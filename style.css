@@ -495,7 +495,6 @@ a p.event-text {
     
     transition: opacity 0.25s ease-in-out;
     
-    background-color: rgba(0,0,0,0.3); 
     color: white;
     padding: 30px;
     
