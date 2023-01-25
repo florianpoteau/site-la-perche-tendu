@@ -25,7 +25,7 @@
       "type": "integer"
     },
     "textarea": {
-      "type": "text"
+      "type": "string"
     },
     "checkbox": {
       "type": "boolean"
