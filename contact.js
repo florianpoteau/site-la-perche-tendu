@@ -127,3 +127,6 @@ function handleFormSubmit(event) {
             alert("Error while submitting the form, please try again later");
         });
 }
+
+
+
