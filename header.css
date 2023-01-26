@@ -81,13 +81,6 @@ nav .main_pages a
     color: white;
 }
  
-nav a:hover 
-{
-
-    background: #fbb52d;
-    color: #303030
-}
-
 
 .icons {
     flex: 1;

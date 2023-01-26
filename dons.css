@@ -81,8 +81,8 @@ nav .main_pages a
  
 nav a:hover 
 {
-
-    color: orange
+    font-size: 18px;
+    color:orange;
 }
 
 
@@ -230,14 +230,17 @@ border-bottom: .3rem solid;
 
 }
 
+.event a{
+    color: #FFFFFF;
+}
 .button {
     align-items: center;
     text-decoration: none;
-    padding: 15px;
+    padding: 6px;
     font-family: arial;
     font-size: 1em;
     color: #FFFFFF;
-    background-color: #20999d;
+    background-color: #83859d;
     -webkit-border-radius: 14px;
     -moz-border-radius: 44px;
     border: 2px solid #FFFFFF;
@@ -249,13 +252,14 @@ border-bottom: .3rem solid;
     
     
     .button:hover {
-    padding: 15px;
-    background-color: #1d0871;
+    padding: 16x;
+    background-color: blue;
     box-shadow: 1px 1px 4px #777777;
     -webkit-box-shadow: 1px 1px 4px #777777;
     -moz-box-shadow: 1px 1px 4px #777777;
-    }
+    color: #fff;
 
+    }
 /* footer */
 footer{
     font-family: 'Roboto Slab', serif;
@@ -386,4 +390,13 @@ footer{
       }
   
   }
-  
+  .fa-envelope,
+  .fa-phone{
+      color: cyan;
+  }
+  .fa-envelope:hover{
+      transform:scale(1.6);
+  }
+  .fa-phone:hover{
+      transform:scale(1.6);
+  }

@@ -97,9 +97,10 @@ nav .main_pages a {
     color: white;
 }
 
-nav a:hover {
-
-    color: orange;
+nav a:hover 
+{
+    font-size: 18px;
+    color:orange;
 }
 
 
@@ -223,10 +224,14 @@ textarea {
 .politique {
     margin-top: 1%;
 }
-.fa-phone {
-    color: rgb(16, 191, 191);
+.fa-envelope,
+.fa-phone{
+    color: cyan;
+   
 }
-.fa-envelope{
-    color: rgb(16, 191, 191);
-
+.fa-envelope:hover{
+    transform:scale(1.6);
+}
+.fa-phone:hover{
+    transform:scale(1.6);
 }

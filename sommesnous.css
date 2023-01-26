@@ -144,7 +144,7 @@ nav .main_pages a
  
 nav a:hover 
 {
-    border-radius: 14px;
+    font-size: 18px;
     color:orange;
 }
 
@@ -1021,3 +1021,15 @@ label
 }
 
 /* style de carte de payment  */
+.fa-envelope,.fa-phone{
+    color:cornflowerblue;
+}
+.fa-envelope,.fa-phone{
+    color:cornflowerblue;
+}
+.fa-envelope:hover{
+    transform:scale(1.6);
+}
+.fa-phone:hover{
+    transform:scale(1.6);
+}

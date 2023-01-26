@@ -78,9 +78,10 @@ nav .main_pages a {
     color: white;
 }
 
-nav a:hover {
-
-    color: orange
+nav a:hover 
+{
+    font-size: 18px;
+    color:orange;
 }
 
 
@@ -422,36 +423,6 @@ footer a {
         margin-top: 10%;
     }
 
-    .textActu1,
-    .textActu2,
-    .textActu3,
-    .textActu4 {
-        margin: auto;
-        margin-top: 5%;
-        width: 85%;
-        text-align: center;
-    }
-
-    .imageactu2,
-    .imageactu3,
-    .imageactu1 {
-        margin: 15% 0 6% 19%;
-        width: 60%;
-    }
-
-    .imageactu1 {
-        margin-top: 10%;
-    }
-
-    .imageactu4 {
-        width: 45%;
-        margin: 15% 0 6% 26%;
-    }
-
-    .textActu4 {
-        margin-bottom: 15%;
-    }
-
     /* Footer */
 
 
@@ -486,13 +457,6 @@ footer a {
         margin-top: 8%;
     }
 
-    .imageactu1 {
-        width: 10%;
-        margin-top: 10%;
-        margin-left: 10%;
-        margin-bottom: 5%;
-    }
-
     h1 {
         font-size: 3em;
     }
@@ -522,7 +486,7 @@ footer a {
     .textActu4 {
         margin: auto;
         margin-top: 5%;
-        width: 85%;
+        width: 45%;
         text-align: center;
     }
 
@@ -533,7 +497,7 @@ footer a {
         margin: 15% 0% 6% 19%;
         margin-top: 15%;
         margin-left: 27%;
-        width: 45%;
+        width: 35%;
     }
 
     .imageactu1 {
@@ -542,8 +506,17 @@ footer a {
 
     .textActu4 {
         margin-bottom: 15%;
+        width: 30%;
     }
-
-
-
 }
+.fa-envelope,
+.fa-phone{
+    color: cyan;
+}
+.fa-envelope:hover{
+    transform:scale(1.6);
+}
+.fa-phone:hover{
+    transform:scale(1.6);
+}
+
