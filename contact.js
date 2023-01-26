@@ -79,8 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Get reference to the form element
     const addform = document.getElementById("addform");
 
-
-
     // Add event listener to the form to listen for the submit event
     addform.addEventListener("submit", handleFormSubmit);
 
@@ -108,13 +106,15 @@ function handleFormSubmit(event) {
         checkbox: checkbox
     };
 
+
     // Send a POST request to the Strapi API endpoint for the "Contact Form" content type
     fetch("http://localhost:1337/api/requests", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(formData),
+
+        body: JSON.stringify({ data: formData }),
     })
         .then(response => response.json())
         .then(data => {
