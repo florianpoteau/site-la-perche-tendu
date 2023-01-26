@@ -120,11 +120,11 @@ function handleFormSubmit(event) {
         .then(data => {
             console.log(data);
             // Display a message to the user indicating that the form was submitted successfully.
-            alert("Form submitted successfully!");
+            alert("Le formulaire à été envoyé avec succès");
         })
         .catch(error => {
             console.error(error);
-            alert("Error while submitting the form, please try again later");
+            alert("Oups... une erreur est survenue");
         });
 }
 
