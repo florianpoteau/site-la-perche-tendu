@@ -12,9 +12,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
-    
+        <link rel="stylesheet" href="actualité.css">
         <title>PERCHE TENDUE</title>
-        <link rel="shortcut icon" type="images/png" href="/images/logo.png">
+        <link rel="shortcut icon" type="images/png" href="/images/logo.jpeg">
 
     </head>
  
@@ -37,7 +37,7 @@
 
                     <div class="bienvenue">
 
-                        <p class="p-bienvenue">ASSOCIATION LA PERCHE TENDUE </p>
+                        <p class="p-bienvenue">ASSOCIATION  LA PERCHE TENDUE </p>
 
                     </div>
 
@@ -45,8 +45,6 @@
 
                         <a href="https://www.instagram.com/bxl_online/" class="fa fa-instagram"></a>
                         <a href="https://www.facebook.com/www.laperchetendue.fr" class="fa fa-facebook"></a>
-
-
                     </div>
 
                 </div>
@@ -54,10 +52,6 @@
             </div>
 
             <nav>
-
-                <label for="toggle">☰</label>
-                
-                <input type="checkbox" id="toggle">
                     
                 <div class="main_pages">
 
@@ -75,86 +69,92 @@
 
         </header>
 
+
     <!-- BODY -->
 
-    <img class="image1" src="images/event2.jpeg" alt="image">
+    <img class="image1" src="/images/Actualité1.png" alt="image">
+
+    <hr class="hr1">
 
     <h1>Nos actualités</h1>
 
+    <hr class="hr2">
+
     <!-- Actualité -->
+
+    <!-- Actualité 1 -->
 
     <div class="flexActu1">
 
         <!-- image1 -->
 
-        <img class="imageactu1" src="images/Actualité1.png" alt="actualité1">
+        <img class="imageactu1" src="" alt="actualité1">
 
         <!-- Texte1 -->
 
-        <main class="textActu1">
+        <div class="textActu1">
+            <p id="dateactu1"></p>
+            <p id="text1"></p>
 
-            <p>Donec sem purus, semper sit amet elit a, vestibulum tincidunt sem. Fusce id augue consequat, dapibus
-                metus vel, tempor ligula. Nulla facilisi. Sed ut enim interdum, consectetur elit ultrices, tristique
-                leo. Ut libero orci, aliquam sed volutpat ut, varius a turpis. Orci varius natoque penatibus et magnis
-                dis parturient montes, nascetur ridiculus mus. Pellentesque pretium consequat eros.</p>
+        </div>
 
-        </main>
+        <hr>
+
+        <!-- Actualité 2 -->
 
         <!-- image2 -->
 
-        <img class="imageactu2" src="images/Actualité2.png" alt="actualité2">
+        <img class="imageactu2" src="" alt="actualité2">
 
         <!-- Texte2 -->
 
-        <main class="textActu2">
+        <div class="textActu2">
+            <p id="dateactu2"></p>
+            <p id="text2"></p>
 
-            <p>Donec sem purus, semper sit amet elit a, vestibulum tincidunt sem. Fusce id augue consequat,
-                dapibus
-                metus vel, tempor ligula. Nulla facilisi. Sed ut enim interdum, consectetur elit ultrices, tristique
-                leo. Ut libero orci, aliquam sed volutpat ut, varius a turpis. Orci varius natoque penatibus et magnis
-                dis parturient montes, nascetur ridiculus mus. Pellentesque pretium consequat eros.</p>
+        </div>
 
-        </main>
+        <hr>
 
     </div>
+
+    <!-- Actualité 3 -->
 
     <div class="flexActu2">
 
         <!-- Image3 -->
 
-        <img class="imageactu3" src="images/Actualité3.png" alt="Actualité3">
+        <img class="imageactu3" src="" alt="Actualité3">
 
         <!-- Texte3 -->
 
-        <main class="textActu3">
+        <div class="textActu3">
+            <p id="dateactu3"></p>
+            <p id="text3"></p>
 
-            <p>Donec sem purus, semper sit amet elit a, vestibulum tincidunt sem. Fusce id augue consequat,
-                dapibus
-                metus vel, tempor ligula. Nulla facilisi. Sed ut enim interdum, consectetur elit ultrices, tristique
-                leo. Ut libero orci, aliquam sed volutpat ut, varius a turpis. Orci varius natoque penatibus et magnis
-                dis parturient montes, nascetur ridiculus mus. Pellentesque pretium consequat eros.</p>
+        </div>
 
-        </main>
+        <hr>
+
+        <!-- Actualité 4 -->
 
         <!-- Image4 -->
 
-        <img class="imageactu4" src="images/Actualité4.png" alt="Actualité4">
+        <img class="imageactu4" src="" alt="Actualité4">
 
         <!-- Texte4 -->
 
-        <main class="textActu4">
+        <div class="textActu4">
+            <p id="dateactu4"></p>
+            <p id="text4"></p>
 
-            <p>Donec sem purus, semper sit amet elit a, vestibulum tincidunt sem. Fusce id augue consequat,
-                dapibus
-                metus vel, tempor ligula. Nulla facilisi. Sed ut enim interdum, consectetur elit ultrices, tristique
-                leo. Ut libero orci, aliquam sed volutpat ut, varius a turpis. Orci varius natoque penatibus et magnis
-                dis parturient montes, nascetur ridiculus mus. Pellentesque pretium consequat eros.</p>
-
-        </main>
+        </div>
 
     </div>
-
 </body>
+
+<!-- ==== FOOTER HTML ==== -->
+
 <footer>
 
     <div class="footerflex">
@@ -198,7 +198,14 @@
     </div>
 
 </footer>
-<script src="/acctualité.js" defer ></script>
-<script id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.0.0/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#3c546b" data-link="#fbb52D" data-moreinfo="Mentions_legales.html" data-message="Les cookies assurent le bon fonctionnement de notre site Internet. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>
+
+<script id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.0.0/cookiebanner.min.js"
+    data-position="bottom" data-fg="#ffffff" data-bg="#3c546b" data-link="#fbb52D" data-moreinfo="Mentions_legales.html"
+    data-message="Les cookies assurent le bon fonctionnement de notre site Internet. En utilisant ce dernier, vous acceptez leur utilisation."
+    data-linkmsg="En savoir plus"></script>
+<script src="/java.js" defer ></script>
+
+<script src="actualité.js" defer></script>
+
 
 </html>

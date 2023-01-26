@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "acceils",
+  "info": {
+    "singularName": "acceil",
+    "pluralName": "acceils",
+    "displayName": "acceil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "texte": {
+      "type": "string"
+    },
+    "titre": {
+      "type": "string"
+    }
+  }
+}
