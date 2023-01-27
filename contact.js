@@ -67,13 +67,6 @@ const url = "localhost:1337";
 // }
 
 
-
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
 
     // Get reference to the form element
@@ -127,6 +120,27 @@ function handleFormSubmit(event) {
             alert("Oups... une erreur est survenue");
         });
 }
+
+// // Email
+
+// // Fonction pour envoyer les données du formulaire par email
+// function sendFormDataByEmail(formId, emailAddress) {
+//     // Récupération des données du formulaire
+//     var form = document.getElementById(formId);
+//     var formData = new FormData(form);
+
+//     // Envoi des données par email
+//     var xhr = new XMLHttpRequest();
+//     xhr.open("POST", "send-form-data-by-email.php", true);
+//     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+//     xhr.send("email=" + emailAddress + "&form_data=" + formData);
+
+//     // Affiche un message de confirmation
+//     alert("Les données ont été envoyées par email à " + emailAddress);
+// }
+
+// // Utilisation de la fonction
+// sendFormDataByEmail("form1", "florianpoteau59@gmail.com");
 
 
 
