@@ -129,7 +129,6 @@ function handleFormSubmit(event) {
 
 
 
-
 // function sendEmail() {
 //     const apiURL = 'http://localhost:1337/api/requests';
 
@@ -153,7 +152,40 @@ function handleFormSubmit(event) {
 //         .catch(function (error) {
 //             console.error(error);
 //         });
+
+//     function handleFormSubmit(event) {
+//         // Send email using a third-party email service provider API
+//         fetch("http://localhost:1337/api/requests", {
+//             method: "POST",
+//             headers: {
+//                 "Content-Type": "application/json"
+//             },
+//             body: JSON.stringify({
+//                 to: email,
+//                 subject: "Formulaire de contact",
+//                 html: `<p>Nom: ${nom}</p><p>Prénom: ${prenom}</p><p>Email: ${email}</p><p>Téléphone: ${tel}</p><p>Message: ${textarea}</p>`
+//             })
+//         })
+//             .then(response => response.json())
+//             .then(data => {
+//                 console.log(data);
+//                 // Display a message to the user indicating that the form was submitted successfully.
+//                 alert("Le formulaire à été envoyé avec succès");
+//             })
+//             .catch(error => {
+//                 console.error(error);
+//                 alert("Oups... une erreur est survenue");
+//             });
+//     }
+
 // }
+
+
+
+
+
+
+
 
 
 
@@ -161,9 +193,8 @@ function handleFormSubmit(event) {
 // // Email
 
 // // Fonction pour envoyer les données du formulaire par email
-// function sendFormDataByEmail(formId, emailAddress) {
+// function sendFormDataByEmail(emailAddress) {
 //     // Récupération des données du formulaire
-//     var form = document.getElementById(formId);
 //     var formData = new FormData(form);
 
 //     // Envoi des données par email
