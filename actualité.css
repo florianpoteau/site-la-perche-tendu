@@ -178,7 +178,6 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 5%;
 }
 
 .textActu3 {
@@ -216,6 +215,10 @@ footer {
     /* gap: 1px; */
 }
 
+p{
+    text-align: center;
+    font-size: 14px;
+}
 .footeradresse {
     width: 50%;
     background-color: #31455d;

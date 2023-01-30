@@ -416,9 +416,6 @@ a p.event-text {
 
 }
 
-
-
-
   .hover-image-event p {
     position: absolute;
     color: white;
@@ -504,7 +501,17 @@ img.pdf {
 
   }
 
+p{
+    margin-left: 14%;
+    margin-right: 14%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: justify;
 
+}
+a p.event-text{
+    text-align: justify;
+}
 
 
 /* ==== FOOTER ==== */
@@ -666,6 +673,7 @@ label#reche {
 
 
 
+ 
 /* ===== RESPONSIVE ===== */
 
 
@@ -976,10 +984,6 @@ label
     .overlay-image .hover-image {
         opacity: 1;
     }
-
-    /* .event p {
-        visibility: hidden;
-    } */
 
 
     /* === FOOTER === */

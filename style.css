@@ -717,7 +717,7 @@ opacity: 0.75;
     border-radius: 14px;
     color: #fff;
     text-decoration: none;
-    padding: 14px 15px;
+    padding: 4px 15px;
     width: 20%;
     text-align: center;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
@@ -726,10 +726,10 @@ opacity: 0.75;
 
 .event-footer:hover {
 
-    background-color: #0752ad;
+    background-color: #5389ca;
     color: #fbb52D;
     text-decoration: none;
-    padding: 14px 15px;
+    padding: 5px 15px;
     width: 20%;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
 }
