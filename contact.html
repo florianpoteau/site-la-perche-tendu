@@ -108,10 +108,10 @@
 
                 <div class="flex3">
 
-                    <form method="post" id="addform">
+                    <form method="post" id="addform" onsubmit="sendEmail()">
                         <!-- Nom formulaire -->
 
-                        <div class="forNom">
+                        <div class=" forNom">
                             <label class="label1" for="nom">Entrez votre nom:</label>
 
                             <input type="text" name="nom" id="nom" placeholder="Votre nom" pattern="\w{3,16}" required>
@@ -167,7 +167,7 @@
                 </div>
 
                 <!-- <a class="bouton" href="contact.html"> -->
-                <button type="submit" class="bouton1">Envoyé
+                <button type="submit" id="send-email">Envoyé
                 </button>
                 <!-- </a> -->
 
@@ -247,6 +247,27 @@
         data-linkmsg="En savoir plus"></script>
     <script src="/java.js"></script>
     <script src="contact.js"></script>
+
+
+    <script>
+        document.getElementById('send-email').addEventListener('click', function () {
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'http://localhost:1337/api/requests');
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify({ to: 'florianpoteau59@outlook.fr', subject: 'Sending with SendGrid is Fun', text: 'and easy to do anywhere, even with Node.js' }));
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                    console.log(xhr.responseText);
+                }
+            };
+        });
+    </script>
+
+
+
+
+
 </body>
 
 </html>

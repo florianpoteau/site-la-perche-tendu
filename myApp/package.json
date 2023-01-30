@@ -11,14 +11,17 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.6.0",
-    "@strapi/plugin-users-permissions": "4.6.0",
+    "@sendgrid/mail": "^7.7.0",
     "@strapi/plugin-i18n": "4.6.0",
+    "@strapi/plugin-users-permissions": "4.6.0",
+    "@strapi/provider-email-sendmail": "^4.6.0",
+    "@strapi/strapi": "4.6.0",
     "better-sqlite3": "8.0.1",
     "cors": "^2.8.5",
     "strapi": "^3.6.11",
-    "strapi-email-sendgrid": "0.0.0",
-    "strapi-plugin-email": "^3.6.11"
+    "strapi-email-sendgrid": "^3.0.0-alpha.14.5",
+    "strapi-plugin-email": "^3.6.11",
+    "strapi-provider-email-sendgrid": "^3.6.11"
   },
   "author": {
     "name": "A Strapi developer"
