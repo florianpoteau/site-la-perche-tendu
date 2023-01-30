@@ -121,6 +121,34 @@ function handleFormSubmit(event) {
         });
 }
 
+function sendEmail() {
+    const apiURL = 'http://localhost:1337/api/requests';
+
+    fetch(apiURL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            to: 'florianpoteau59@gmail.com',
+            subject: 'Sending with Fetch is Fun',
+            text: 'and easy to do anywhere, even with Strapi',
+        })
+    })
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            console.log(data);
+        })
+        .catch(function (error) {
+            console.error(error);
+        });
+}
+
+
+
+
 // // Email
 
 // // Fonction pour envoyer les données du formulaire par email
