@@ -126,21 +126,38 @@ function handleFormSubmit(event) {
 
 
 
-
-
-
 // function sendEmail() {
+
+//     // Get the values of the form input fields
+//     const nom = addform.nom.value;
+//     const prenom = addform.prenom.value;
+//     const email = addform.email.value;
+//     const tel = addform.tel.value;
+//     const textarea = addform.textarea.value;
+//     const checkbox = document.getElementById("checkbox").checked;
+
+//     // Package the form data into an object
+//     const formData = {
+//         nom: nom,
+//         prenom: prenom,
+//         email: email,
+//         tel: tel,
+//         textarea: textarea,
+//         checkbox: checkbox
+//     };
+
 //     const apiURL = 'http://localhost:1337/api/requests';
 
-//     fetch(apiURL, {
+//     fetch("http://localhost:1337/api/requests", {cd
 //         method: 'POST',
 //         headers: {
 //             'Content-Type': 'application/json'
 //         },
+//         body: JSON.stringify({ data: formData }),
 //         body: JSON.stringify({
-//             to: 'florianpoteau59@gmail.com',
+//             to: 'solit641@gmail.com',
 //             subject: 'Sending with Fetch is Fun',
-//             text: 'and easy to do anywhere, even with Strapi',
+//             html: 'and easy to do anywhere, even with Strapi',
 //         })
 //     })
 //         .then(function (response) {
@@ -151,7 +168,11 @@ function handleFormSubmit(event) {
 //         })
 //         .catch(function (error) {
 //             console.error(error);
-//         });
+//         })
+// };
+
+
+
 
 //     function handleFormSubmit(event) {
 //         // Send email using a third-party email service provider API
