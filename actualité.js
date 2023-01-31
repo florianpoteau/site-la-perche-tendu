@@ -100,13 +100,13 @@ function getimage() {
 
             // Actualité 1
 
-            imageStrapi1.src = "http://localhost:1337" + `${allactu.data[0].attributes.image.data[0].attributes.formats.medium.url}`;
+            imageStrapi1.src = "http://localhost:1337" + `${allactu.data[0].attributes.image.data[0].attributes.formats.thumbnail.url}`;
             console.log(imageStrapi1.src);
             console.log("AllActu", allactu.data);
 
             // Actualité 2
 
-            imageStrapi2.src = url + `${allactu.data[1].attributes.image.data[0].attributes.formats.medium.url}`;
+            imageStrapi2.src = url + `${allactu.data[1].attributes.image.data[0].attributes.formats.thumbnail.url}`;
 
             // Actualité 3
 

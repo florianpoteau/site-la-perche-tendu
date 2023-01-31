@@ -10,10 +10,6 @@ body {
     font-size: 16px;
 }
 
-
-
-
-
 header #head-wrap {
 
     max-width: 100%;
@@ -74,13 +70,13 @@ nav .main_pages a {
     height: 60px;
     text-decoration: none;
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     color: white;
 }
 
 nav a:hover 
 {
-    font-size: 18px;
+    font-size: 14px;
     color:orange;
 }
 
@@ -131,76 +127,39 @@ h1 {
     flex-wrap: wrap;
 }
 
-.imageactu1 {
+.imageactu1,
+.imageactu2,
+.imageactu3,
+.imageactu4{
     width: 20%;
     margin-top: 5%;
     margin-left: 3%;
-    padding: 4px;
     border-radius: 24px;
-    background-color: #f79809;
     border: #31455d solid 4px;
 }
 
-.textActu1 {
+.textActu1,
+.textActu2,
+.textActu3,
+.textActu4 {
     margin-top: 5%;
     margin-left: 2%;
     width: 20%;
 }
 
-.imageactu2 {
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 21.5%;
-    height: 50%;
-    padding: 4px;
-    border-radius: 24px;
-    background-color: #f79809;
-    border: #31455d solid 4px;
-}
 
-.textActu2 {
-    margin-top: 8%;
-    margin-left: 2%;
-    width: 20%;
-}
+.flexActu2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-.imageactu3 {
-    margin-top: 10%;
-    margin-left: 3%;
-    width: 30%;
-    padding: 4px;
-    border-radius: 24px;
-    background-color: #f79809;
-    border: #31455d solid 4px;
 }
-
-.flexActu2 {
+.flexActu1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.textActu3 {
-    margin-top: 10%;
-    margin-left: 2%;
-    width: 20%;
-}
-
-.imageactu4 {
-    margin-top: 10%;
-    margin-left: 5%;
-    width: 15%;
-    padding: 4px;
-    border-radius: 24px;
-    background-color: #f79809;
-    border: #31455d solid 4px;
-}
-
-.textActu4 {
-    margin-top: 10%;
-    margin-left: 2%;
-    width: 20%;
-}
 
 footer {
     margin-top: 4%;
@@ -216,7 +175,7 @@ footer {
 }
 
 p{
-    text-align: center;
+    text-align: justify;
     font-size: 14px;
 }
 .footeradresse {
@@ -497,10 +456,8 @@ footer a {
     .imageactu3,
     .imageactu4,
     .imageactu1 {
-        margin: 15% 0% 6% 19%;
-        margin-top: 15%;
-        margin-left: 27%;
-        width: 35%;
+       
+        width: 100%;
     }
 
     .imageactu1 {
