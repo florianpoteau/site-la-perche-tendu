@@ -15,7 +15,7 @@ body{
 header.sticky {
    
     width: 100%;
-    background:red;
+    background:url(/images/rouge.jpeg);
 }
 
 header #head-wrap {
@@ -118,7 +118,7 @@ img.seek-img {
     /* margin: 100px auto; */
     width: 100%;
     height: 60px;
-    background: blue;
+    background:url("/images/blue.jpeg")
 }
  
 nav .main_pages 
@@ -359,7 +359,7 @@ a.services-clic:hover .picto {
     height: 50px;
     text-decoration: none;
     color: white;
-    background-color: #fbb52d;
+    background:url("/images/blue.jpeg")
 }
 
 #bouton-services:hover {
@@ -492,13 +492,9 @@ a p.event-text {
     bottom: 0;
     left: 0;
     right: 0;
-    
     transition: opacity 0.25s ease-in-out;
-    
     color: white;
     padding: 30px;
-    
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -543,22 +539,40 @@ a p.event-text {
 
 .event-news {
 
-    background-color: #FBB52D;
+    background:rgb(222, 222, 222);
     margin-top: 30px;
     padding: 14px 15px;
-    width: 70%;
+    width: 40%;
     display: flex;
     justify-content: center;
     margin: 30px auto;
+    border-radius: 14px;
+
+}
+
+
+.event-news:hover {
+
+    background:rgb(143, 140, 140);
+    margin-top: 30px;
+    padding: 14px 15px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    border-radius: 14px;
+
 }
 
 .event-news a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 img.pdf {
     width: 10%;
@@ -593,7 +607,8 @@ img.pdf {
     text-align: center;
   }
   
-  .overlay-image:hover .hover-image {
+  .overlay-image:hover 
+  .hover-image {
     opacity: 1; 
   }
 

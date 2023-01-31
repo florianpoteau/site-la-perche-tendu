@@ -24,7 +24,7 @@ body{
 header.sticky {
    
     width: 100%;
-    background:red;
+    background:url(/images/rouge.jpeg);
 }
 
 header #head-wrap {
@@ -119,7 +119,7 @@ img.seek-img {
     /* margin: 100px auto; */
     width: 100%;
     height: 60px;
-    background: blue;
+    background:url("/images/blue.jpeg")
 }
  
 nav .main_pages 
