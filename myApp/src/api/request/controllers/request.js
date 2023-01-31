@@ -8,6 +8,8 @@ const { createCoreController } = require('@strapi/strapi').factories;
 
 module.exports = createCoreController('api::request.request');
 
+
+
 // const { email } = strapi.plugins['email'].services;
 
 // module.exports = {
@@ -44,7 +46,7 @@ module.exports = createCoreController('api::request.request');
 
 
 // const sgMail = require('@sendgrid/mail');
-// sgMail.setApiKey('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');
+// sgMail.setApiKey('SENDGRID_API_KEY');
 
 // function sendEmail() {
 //     const msg = {
