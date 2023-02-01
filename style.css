@@ -539,7 +539,6 @@ a p.event-text {
 
 .event-news {
 
-    background:rgb(222, 222, 222);
     margin-top: 30px;
     padding: 14px 15px;
     width: 40%;
@@ -547,13 +546,14 @@ a p.event-text {
     justify-content: center;
     margin: 30px auto;
     border-radius: 14px;
+    box-shadow: 0px 5px 10px rgba(126, 129, 128, 0.4);
 
 }
 
 
 .event-news:hover {
 
-    background:rgb(143, 140, 140);
+    background:rgb(185, 183, 183);
     margin-top: 30px;
     padding: 14px 15px;
     width: 40%;
@@ -644,12 +644,13 @@ footer{
     background-color: #31455d;
     color: white;
     padding-bottom: 10px;
+    font-size: 12px;
 }
 
 .footerh2{
 text-align: center;
 font-family: 'Oswald', sans-serif;
-font-size: 24px;
+font-size: 18px;
 }
 
 .footerp{
@@ -695,7 +696,7 @@ opacity: 0.75;
 .footercopyright{
     text-align: center;
     flex: 1;
-    background-color:  #fbb52D;
+    background-color:  #c4bbbb;
     color: white;
 }
 
