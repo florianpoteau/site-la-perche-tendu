@@ -1,6 +1,6 @@
 html {
 
-    background-color: #FBB52D;
+    background-color: rgb(251, 246, 236);
     scroll-behavior: smooth;
 }
 
@@ -16,7 +16,7 @@ body {
 header.sticky {
 
     width: 100%;
-    background: #FF5F5F;
+    background: url(/images/rouge.jpeg);
 }
 
 header #head-wrap {
@@ -37,7 +37,7 @@ header #head-wrap .wrap {
 }
 
 span {
-    color: rgb(131, 209, 249);
+    color: blue;
 }
 
 /* clignotant  */
@@ -93,10 +93,13 @@ blink {
 
 .img-logo {
     margin-top: -10px;
-    width: 140px;
+    width: 90px;
+    border-radius: 50%;
 }
 
-.home-img {
+.home-img,
+.home-img2,
+.home-img3 {
     display: block;
     max-width: 100%;
     height: auto;
@@ -123,7 +126,7 @@ nav {
     /* margin: 100px auto; */
     width: 100%;
     height: 60px;
-    background: #48435C;
+    background: url("/images/blue.jpeg")
 }
 
 nav .main_pages {
@@ -133,21 +136,20 @@ nav .main_pages {
 }
 
 nav .main_pages a {
-    width: 20%;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 60px;
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
 }
 
 nav a:hover {
-    border-radius: 14px;
-    background: #fbb52d;
-    color: #303030
+    font-size: 14px;
+    color: orange;
 }
 
 
@@ -309,7 +311,9 @@ h2.titre-liens {
     max-height: 160px;
 }
 
-.link-title {
+.link-title,
+.link-title2,
+.link-title3 {
 
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -362,7 +366,7 @@ a.services-clic:hover .picto {
     height: 50px;
     text-decoration: none;
     color: white;
-    background-color: #fbb52d;
+    background: url("/images/blue.jpeg")
 }
 
 #bouton-services:hover {
@@ -455,13 +459,17 @@ a.services-clic:hover .picto {
     text-align: center;
 }
 
-p.event-text {
+p.event-text,
+p.event-text1,
+p.event-text2 {
     text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-a p.event-text {
+a p.event-text,
+a p.event-text1,
+a p.event-text2 {
 
     color: #7e7e7e;
 }
@@ -497,14 +505,9 @@ a p.event-text {
     bottom: 0;
     left: 0;
     right: 0;
-
     transition: opacity 0.25s ease-in-out;
-
-    background-color: rgba(0, 0, 0, 0.3);
     color: white;
     padding: 30px;
-
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -549,22 +552,40 @@ a p.event-text {
 
 .event-news {
 
-    background-color: #FBB52D;
     margin-top: 30px;
     padding: 14px 15px;
-    width: 70%;
+    width: 40%;
     display: flex;
     justify-content: center;
     margin: 30px auto;
+    border-radius: 14px;
+    box-shadow: 0px 5px 10px rgba(126, 129, 128, 0.4);
+
+}
+
+
+.event-news:hover {
+
+    background: rgb(185, 183, 183);
+    margin-top: 30px;
+    padding: 14px 15px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    border-radius: 14px;
+
 }
 
 .event-news a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 img.pdf {
     width: 10%;
@@ -635,12 +656,13 @@ footer {
     background-color: #31455d;
     color: white;
     padding-bottom: 10px;
+    font-size: 12px;
 }
 
 .footerh2 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .footerp {
@@ -686,7 +708,7 @@ footer a {
 .footercopyright {
     text-align: center;
     flex: 1;
-    background-color: #fbb52D;
+    background-color: #c4bbbb;
     color: white;
 }
 
@@ -723,7 +745,7 @@ footer a {
     border-radius: 14px;
     color: #fff;
     text-decoration: none;
-    padding: 14px 15px;
+    padding: 4px 15px;
     width: 20%;
     text-align: center;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
@@ -732,10 +754,10 @@ footer a {
 
 .event-footer:hover {
 
-    background-color: #0752ad;
+    background-color: #5389ca;
     color: #fbb52D;
     text-decoration: none;
-    padding: 14px 15px;
+    padding: 5px 15px;
     width: 20%;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
 }
@@ -836,7 +858,6 @@ label#reche {
     }
 
     .icons a:hover {
-
         color: #fbb52d;
     }
 
@@ -1138,5 +1159,3 @@ label#reche {
     background-color: #e1b5b5;
     border-radius: 14px;
 }
-
-/* style de carte de payment  */

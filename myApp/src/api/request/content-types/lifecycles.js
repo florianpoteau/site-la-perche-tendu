@@ -4,11 +4,11 @@ module.exports = {
 
         try {
             await strapi.plugins['email'].services.email.send({
-                to: 'solit641@gmail.com',
-                from: 'solit641@gmail.com', // e.g. single sender verification in SendGrid
-                cc: 'solit641@gmail.com',
-                bcc: 'solit641@gmail.com',
-                replyTo: 'solit641@gmail.com',
+                to: 'florianpoteau59@outlook.fr',
+                from: 'florianpoteau59@outlook.fr', // e.g. single sender verification in SendGrid
+                cc: 'florianpoteau59@outlook.fr',
+                bcc: 'florianpoteau59@outlook.fr',
+                replyTo: 'florianpoteau59@outlook.fr',
                 subject: 'The Strapi Email plugin worked successfully',
                 text: `${result.nom} ça fonctionne ?`, // Replace with a valid field ID
                 html: 'Hello world!',
