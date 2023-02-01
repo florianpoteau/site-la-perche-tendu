@@ -1,30 +1,30 @@
 // document.querySelector
 
 // texte de l'actualité 1
-const image1Div = document.getElementById("text1");
+const image1Div1 = document.getElementById("text1");
 
 // Date de l'actualité 1
-const image2Div = document.getElementById("dateactu1");
+const image2Div1 = document.getElementById("dateactu1");
 
 // Image de l'actualité 1
 const imageStrapi1 = document.querySelector(".imageactu1");
 
 // Date de l'actualité 2
-const image3Div = document.getElementById("dateactu2");
+const image3Div1 = document.getElementById("dateactu2");
 
 // texte de l'actualité 2
-const image4Div = document.getElementById("text2");
+const image4Div1 = document.getElementById("text2");
 
 // Image de l'actualité 2
 const imageStrapi2 = document.querySelector(".imageactu2");
 
 // Date de l'actualité 3
 
-const image5Div = document.getElementById("dateactu3");
+const image5Div1 = document.getElementById("dateactu3");
 
 // texte de l'actualité 3
 
-const image6Div = document.getElementById("text3");
+const image6Div1 = document.getElementById("text3");
 
 // image de l'actualité 3
 
@@ -32,11 +32,11 @@ const imageStrapi3 = document.querySelector(".imageactu3");
 
 // Date de l'actualité 4
 
-const image7Div = document.getElementById("dateactu4");
+const image7Div1 = document.getElementById("dateactu4");
 
 // texte de l'actualité 4
 
-const image8Div = document.getElementById("text4");
+const image8Div1 = document.getElementById("text4");
 
 // image de l'actualité 4
 
@@ -66,23 +66,23 @@ function gettexte() {
 
             // actualité 1
 
-            image2Div.innerHTML = `${JSON.stringify(allactu.data[0].attributes.date)}`;
-            image1Div.innerHTML = `${JSON.stringify(allactu.data[0].attributes.texte)}`;
+            image2Div1.innerHTML = `${JSON.stringify(allactu.data[0].attributes.date)}`;
+            image1Div1.innerHTML = `${JSON.stringify(allactu.data[0].attributes.texte)}`;
 
             // actualité 2
 
-            image3Div.innerHTML = `${JSON.stringify(allactu.data[1].attributes.date)}`;
-            image4Div.innerHTML = `${JSON.stringify(allactu.data[1].attributes.texte)}`;
+            image3Div1.innerHTML = `${JSON.stringify(allactu.data[1].attributes.date)}`;
+            image4Div1.innerHTML = `${JSON.stringify(allactu.data[1].attributes.texte)}`;
 
             // actualité 3
 
-            image5Div.innerHTML = `${JSON.stringify(allactu.data[2].attributes.date)}`;
-            image6Div.innerHTML = `${JSON.stringify(allactu.data[2].attributes.texte)}`;
+            image5Div1.innerHTML = `${JSON.stringify(allactu.data[2].attributes.date)}`;
+            image6Div1.innerHTML = `${JSON.stringify(allactu.data[2].attributes.texte)}`;
 
             // actualité 4
 
-            image7Div.innerHTML = `${JSON.stringify(allactu.data[3].attributes.date)}`;
-            image8Div.innerHTML = `${JSON.stringify(allactu.data[3].attributes.texte)}`;
+            image7Div1.innerHTML = `${JSON.stringify(allactu.data[3].attributes.date)}`;
+            image8Div1.innerHTML = `${JSON.stringify(allactu.data[3].attributes.texte)}`;
 
         })
         .catch((err) => {
