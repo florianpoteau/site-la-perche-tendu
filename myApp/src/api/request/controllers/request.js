@@ -8,7 +8,22 @@ const { createCoreController } = require('@strapi/strapi').factories;
 
 module.exports = createCoreController('api::request.request');
 
+// async function afterCreate(event) {
+//     const { result } = event;
 
+//     try {
+//         await strapi.plugins['email'].services.email.send({
+//             to: 'florianpoteau59@outlook.fr',
+//             from: 'florianpoteau59@gmail.com', // e.g. single sender verification in SendGrid
+//             subject: 'The Strapi Email plugin worked successfully',
+//             text: ` ça fonctionne ${result.nom} ?`, // Replace with a valid field ID
+//         })
+//     } catch (err) {
+//         console.log(err);
+//     }
+// }
+
+// afterCreate();
 
 
 
