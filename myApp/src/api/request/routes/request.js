@@ -4,11 +4,11 @@
  * request router
  */
 
-// path: src/api/request/routes/request
-
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
 module.exports = createCoreRouter('api::request.request');
+
+// path: src/api/request/routes/request
 
 send: async (ctx) => {
     const body = ctx.request.body
@@ -29,3 +29,4 @@ send: async (ctx) => {
         ctx.send({ error: 'Error sending email' })
     }
 }
+

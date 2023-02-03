@@ -22,8 +22,8 @@ module.exports = ({ env }) => ({
     email: {
         provider: env('EMAIL_PROVIDER'),
         providerOptions: {
-            host: env('EMAIL_SMTP_HOST', 'smtp-relay.sendinblue.com'),
-            port: env('EMAIL_SMTP_PORT', 587),
+            host: env('smtp-relay.sendinblue.com'),
+            port: env(587),
             auth: {
                 user: env('EMAIL_SMTP_USER'),
                 pass: env('EMAIL_SMTP_PASS'),
@@ -36,7 +36,7 @@ module.exports = ({ env }) => ({
     },
     // ...
 })
-
+// port 587 ou 465
 
 
 // module.exports = ({ env }) => ({

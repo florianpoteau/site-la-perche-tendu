@@ -16,7 +16,7 @@ module.exports = [
             {
                 "method": "POST",
                 "path": "/email",
-                "handler": "Email.send",
+                "handler": "email.send",
                 "config": {}
             }
         ]
