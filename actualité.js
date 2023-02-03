@@ -126,39 +126,3 @@ function getimage() {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function renderimage(food) {
-
-//     let list = [];
-//     for (let f = 0; f < food; f++) {
-//         const item = `<li>${f.texte}</li>`;
-//         list = [...list, item];
-//     };
-
-
-//     image1Div.innerHTML = `<ul>${JSON.stringify(list)}</ul>`;
-//     console.log(list);
-// }
-
-// const img = document.getElementById('img');
-
-// fetch('http://localhost:1337/api/posts?populate=*')
-//     .then(res => res.json())
-//     .then(data => img.src = data[0].url);
-
-
-
-
