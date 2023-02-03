@@ -7,18 +7,19 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="sommesnous.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
         <title>PERCHE TENDUE</title>
-        <link rel="shortcut icon" type="images/png" href="/images/logo.png">
+        <link rel="shortcut icon" type="images/png" href="/images/logo.jpeg">
 
     </head>
  
     <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
         <header class="sticky">
 
@@ -28,7 +29,7 @@
 
                     <a class="logo" href="index.html">
 
-                        <img class="img-logo" src="/images/logo.png" alt="logo perche tendue">
+                        <img class="img-logo" src="/images/logo.jpeg" alt="logo perche tendue">
                         
 
                     </a>
@@ -67,53 +68,69 @@
 
         </header>
 
-
         <main>
-
 
             <section id="services">
 
-                <h2 class="titre-liens">Nos épiceries solidaires du haut de france</h2>
+                <h2 class="titre-liens">Nos services en 1 clic</h2>
 
                 <div class="section-liens">
 
                     <div class="services">
-                       
-                        <a href="demarche.html" class="services-clic">
-                            <button>
-                            <div class="link-title">Épicerie de Lens</div>
-                                                        </button>
 
-                            <span class="pictosn">
-                                <img class="home-img" src="/images/accueil.jpeg" alt="icone-dossier">
+                        <a href="demarche.html" class="services-clic">
+
+                            <span class="picto">
+
+                                <img class="home-img" src="/images/activite4.jpeg" alt="icone-dossier">
 
                             </span>
 
+                            <div class="link-title">Nos activités</div>
+
+
+                        </a>
+
                         <a href="#" class="services-clic">
-                            <button>
-                            <div class="link-title"> Épicerie d'Arras</div>
-                            </button>
-                            <span class="pictosn">
+
+                            <span class="picto">
+
+                                <img class="home-img" src="/images/event2.jpeg" alt="icone-budget">
+
+                            </span>
+
+                            <div class="link-title">Nos Evenements</div>
+
+
+                        </a>
+
+                      
+
+                        <a href="#" class="services-clic">
+
+                            <span class="picto">
 
                                 <img class="home-img" src="/images/accueil.jpeg" alt="icone-dechets">
 
                             </span>
-    
+
+                            <div class="link-title"> Epicerie Solidaire</div>
+
+
+                        </a>
 
                     </div>
 
                 </div>
-                <p><span>L</span>'Association Perche Tendue est
-                    Fondé en décembre 2014 et doté d'un statut associatif, il s'agit de la mise en commun des savoir-faire de différents acteurs en vue d'apporter un soutien aux personnes en difficultés sociales; c'est-à-dire permettre aux personnes en précarité d'avoir accès aux produits alimentaires et non alimentaires de première nécessité à prix réduits. Ainsi, nous pouvons les soutenir dans la lutte contre l'exclusion, dans la mise en œuvre de leur savoir-faire, par la mise en place d'ateliers d'accompagnement social. En créant dans la commune d'Achicourt une boutique sociale et solidaire, nous nous engageons avec les habitants de la commune à lutter contre l'exclusion et la pauvreté en respectant davantage la dignité des familles, offrir un espace convivial et vivant, d'accueil, d'écoute, de rencontre, et d'échange.
-                    A Propos de nous
-                    En tant qu'association humanitaire, nous avons pour objectif de vous informer au mieux pour aider et apporter du soutien aux personnes en difficulté : lutter contre la précarité et l'exclusion sociale ; insertion sociale des personnes en situation de précarité ; apporter l'aide alimentaire aux personnes en difficulté par le biais des épiceries et restaurants solidaires ; accueillir et héberger des personnes en détresse ; porter les projets de solidarité internationale ; soutenir des projets de nos antennes à l'international, accompagnement juridique des migrants ; accompagnement et recherche de financement des projets ; accueil, insertion sociale et professionnelle des étudiants étrangers, promouvoir la solidarité et les relations interculturelles, renforcer le lien social dans la communauté associative en épargnant ensemble et en se montrant solidaire avec la possibilité d'octroyer des micro-crédits d'urgence pour soutenir un membre en difficulté</p>
+
             </section>
+
 
             <section id="actualites">
 
                 <div class="section-actus">
 
-                    <h2 class="titre-liens">Nos activités </h2>
+                    <h2 class="titre-liens">Nos actualités</h2>
 
                     <div class="actualites">
 
@@ -123,10 +140,15 @@
 
                             <div class="event-picto">
 
-                                <div class="overlay-image1">
+                                <div class="overlay-image">
 
                                     <img src="/images/activite8.jpeg" alt="Rollerbike Bruxelles">
 
+                                    <div class="hover-image-event">
+                                    
+                                        <p>EN SAVOIR PLUS</p>
+                                    
+                                    </div>
 
                                 </div>
 
@@ -136,6 +158,8 @@
 
                             <p class="event-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem recusandae aperiam facere architecto! Vel, accusamus commodi corrupti, dolore blanditiis adipisci repellat expedita quisquam quo dolores odit odio unde accusantium mollitia.</p>
 
+                            
+
                         </div>
 
                         <div class="event">
@@ -144,7 +168,7 @@
 
                             <div class="event-picto">
 
-                                <div class="overlay-image1">
+                                <div class="overlay-image">
 
                                     <img src="/images/asso1.jpeg" alt="Festival Europalia">
 
@@ -168,15 +192,17 @@
 
                         <div class="event">
 
+                            <a href="#">
 
                             <div class="event-picto">
 
-                                <div class="overlay-image1">
+                                <div class="overlay-image">
 
                                     <img src="/images/group1.jpeg" alt="Parade Bruxelles">
 
                                     <div class="hover-image-event">
                                     
+                                        <p>EN SAVOIR PLUS</p>
                                     
                                     </div>
 
@@ -194,6 +220,14 @@
                        
                     </div>
 
+                    <div id="bouton-actus">
+
+                        <a href="événement.html" class="liens-actus" title="Nos autres actualites"></a>
+    
+                        <span class="liens-txt">Toutes nos actualités</span>
+    
+                    </div>
+
                 </div>
 
             </section>
@@ -203,7 +237,7 @@
 
                 <div class="section-actus">
 
-                    <h2 class="titre-liens">#administration </h2>
+                    <h2 class="titre-liens">#Perche Tendue </h2>
 
                     <div class="news">
 
@@ -213,11 +247,13 @@
 
                                 <div class="overlay-image">
 
-                                    <img src="/images/reponsable.webp" alt="image responsable">
+                                    <img src="/images/group1.jpeg" alt="image news">
 
                                     <div class="hover-image">
-                                                                    
-                                        <p>Julien danniel</p>
+                                    
+                                        <h3>Autour du nous</h3>
+                                    
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut molestias laudantium quod,</p>
                                     
                                     </div>
                                 
@@ -225,8 +261,13 @@
 
                             </div>
 
-                            <p>President</p>
-                            <a  href="#" class="fa fa-envelope"> Mail</a>
+                            <p>le N°39 - Aout 2022</p>
+
+                            <div class="event-news">
+
+                                <a href="Mairie_de_Bruxelles.pdf">Telechargez<img src="/images/telecharger-arrow.png" alt="icone pdf" class="pdf"></a>
+    
+                            </div>
 
                         </div>
 
@@ -236,12 +277,13 @@
 
                                 <div class="overlay-image">
 
-                                    <img src="/images/reponsable.webp" alt="image news">
+                                    <img src="/images/group1.jpeg" alt="image news">
 
                                     <div class="hover-image">
                                     
+                                        <h3>Autour de nous</h3>
                                     
-                                        <p>Julien danniel</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut molestias laudantium quod,</p>
                                     
                                     </div>
                                 
@@ -249,8 +291,13 @@
 
                             </div>
 
-                            <p>Vis President</p>
-                            <a  href="#" class="fa fa-envelope"> Mail</a>
+                            <p>le N°40 - septembre2022</p>
+
+                            <div class="event-news">
+
+                                <a href="#">Telechargez <img src="/images/telecharger-arrow.png" alt="icone PDF" class="pdf"></a>
+    
+                            </div>
 
                         </div>
 
@@ -260,12 +307,13 @@
 
                                 <div class="overlay-image">
 
-                                    <img src="/images/reponsable.webp" alt="image news">
+                                    <img src="/images/groupe6.jpeg" alt="image news">
 
                                     <div class="hover-image">
                                     
+                                        <h3>Autour de nous</h3>
                                     
-                                        <p>Julien danniel</p>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut molestias laudantium quod,</p>
                                     
                                     </div>
                                 
@@ -273,107 +321,71 @@
 
                             </div>
 
-                            <p>Tresorier</p>
-                            <a  href="#" class="fa fa-envelope"> Mail</a>
+                            <p>le N°41 - Octobre 2022</p>
 
-                        </div>
+                            <div class="event-news">
 
-                        <div class="event">
-
-                            <div class="event-picto">
-
-                                <div class="overlay-image">
-
-                                    <img src="/images/reponsable.webp" alt="image news">
-
-                                    <div class="hover-image">
-                                                  
-                                        <p>Julien danniel</p>
-
-                                    </div>
-                                
-                                </div>
-
+                                <a href="#">Telechargez<img src="/images/telecharger-arrow.png" alt="icone PDF" class="pdf"></a>
+    
                             </div>
-
-                            <p>Vis Tresorier </p>
-                            <a  href="#" class="fa fa-envelope"> Mail</a>
 
                         </div>
                        
-                        <div class="event">
-
-                            <div class="event-picto">
-
-                                <div class="overlay-image">
-
-                                    <img src="/images/reponsable.webp" alt="image news">
-
-                                    <div class="hover-image">
-                                                  
-                                        <p>Julien danniel</p>
-
-                                    </div>
-                                
-                                </div>
-
-                            </div>
-
-                            <p>Secretaire</p>
-                            <a  href="#" class="fa fa-envelope"> Mail</a>
-
-                        </div>
 
                     </div>
 
                 </div>
 
+
             </section>
+
 
         </main>
         
         <footer>
+            
 
             <div class="footerflex">
                 
                 <div class="footeradresse">
             
-                    <h2 class="footerh2">Reseaux Sociaux</h2>
+                    <h2 class="footerh2">Adresse</h2>
             
                     <div class="footerp">
-        
-                        <p> .  facebook .    <a href="https://www.facebook.com/www.laperchetendue.fr/" class="fa fa-facebook"></a>
-                        .   instagram .   <a href="https://www.instagram.com/bxl_online/" class="fa fa-instagram"></a>
-                        .   instagram .   <a href="https://www.instagram.com/bxl_online/" class="fa fa-twitter"></a></p>
-        
+
+                        <p>Association PERCHE TENDUE</p>
+
+                        <p>Epicerie Solidaire de Lens</p>
+
+
                     </div>
                   
                 </div>
               
+                
                 <div class="footerhoraire">
-                    
-                    <h2 class="footerh2">contact</h2>
-        
-                    <p> .  Mail :.    <a href="#" class="fa fa-envelope"></a>  .   Phone :.   <a href="#" class="fa fa-phone"> </a> +39 xx xxxx xxxx </p>
-                  
+
+                    <p> telephone : +32 x xxx xx xx</p>
+                    <a  target="_blank" href="https://www.google.com/maps/place/La+Perche+Tendue/@50.2847086,2.778035,16z/data=!4m10!1m2!2m1!1sperche+tendue+de+lens!3m6!1s0x47dd487ae1bef2e1:0xa5131200942828a2!8m2!3d50.2815065!4d2.7841856!15sChVwZXJjaGUgdGVuZHVlIGRlIGxlbnNaFyIVcGVyY2hlIHRlbmR1ZSBkZSBsZW5zkgEbYXNzb2NpYXRpb25fb3Jfb3JnYW5pemF0aW9u4AEA!16s%2Fg%2F11hyl6dx6y" class="event-footer">Adresse<img src="/images/google-maps.png"/></a>
+
+    
                 </div>
-               
                 <div class="footercopyright">
-        
+
                     <ul>
-        
+
                         <li>Copyright 2022 Ville de Lens</li>
-        
+
                         <li><a href="Mentions_legales.html" class="mentions">Mentions légales</a></li>
-        
+
                         <li><a href="Cookie.html" class="mentions">Gestion des cookies</a></li>
                     
                     </ul>
-        
+
                 </div>
-        
+
             </div>
-        
+
         </footer>
        
 <script id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.0.0/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#3c546b" data-link="#fbb52D" data-moreinfo="Mentions_legales.html" data-message="Les cookies assurent le bon fonctionnement de notre site Internet. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>

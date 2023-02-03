@@ -43,7 +43,7 @@ header #head-wrap .wrap {
 
 .img-logo {
     margin-top: -10px;
-    width: 100px;
+    width: 90px;
 }
 
 .home-img {
@@ -66,8 +66,15 @@ img.seek-img {
     text-align: center;
     color: aliceblue;
 
-}
+}.p-bienvenue {
 
+    font-family: 'Oswald', sans-serif;
+    color: #eceff3;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
 .checkHead {
     box-shadow: none;
 }
