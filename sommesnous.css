@@ -35,7 +35,7 @@ header #head-wrap {
 }
 
 header #head-wrap .wrap {
-
+                        
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -110,8 +110,6 @@ img.seek-img {
 .bienvenue {
     flex: 1;
     text-align: center;
-
-
 }
 
  nav 
@@ -747,15 +745,6 @@ header #head-wrap {
 }
 
 
-.p-bienvenue {
-
-    font-family: 'Oswald', sans-serif;
-    color: #f3f6fa;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-
-}
 
 .logo {
     order: 1;

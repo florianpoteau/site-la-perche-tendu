@@ -815,16 +815,6 @@ label#reche {
     }
 
 
-    .p-bienvenue {
-
-        font-family: 'Oswald', sans-serif;
-        color: #31455d;
-        font-size: 25px;
-        text-transform: uppercase;
-        font-weight: bold;
-
-    }
-
     .logo {
         order: 1;
         flex: 1;
