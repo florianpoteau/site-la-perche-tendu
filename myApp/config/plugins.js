@@ -15,6 +15,9 @@
 
 
 
+
+
+
 // path: config/plugins.js
 
 
@@ -24,8 +27,8 @@ module.exports = ({ env }) => {
         config: {
             provider: env('EMAIL_PROVIDER'),
             providerOptions: {
-                host: env('EMAIL_SMTP_HOST', 'smtp-relay.sendinblue.com'),
-                port: env('EMAIL_SMTP_PORT', 587),
+                host: env('EMAIL_SMTP_HOST'),
+                port: env('EMAIL_SMTP_PORT'),
                 auth: {
                     user: env('EMAIL_SMTP_USER'),
                     pass: env('EMAIL_SMTP_PASS'),
@@ -41,21 +44,23 @@ module.exports = ({ env }) => {
     return {
         // ...
         email: {
-            provider: env('EMAIL_PROVIDER'),
-            providerOptions: {
-                host: env('EMAIL_SMTP_HOST', 'smtp-relay.sendinblue.com'),
-                port: env('EMAIL_SMTP_PORT', 587),
-                auth: {
-                    user: env('EMAIL_SMTP_USER'),
-                    pass: env('EMAIL_SMTP_PASS'),
+            config: {
+                provider: env('EMAIL_PROVIDER'),
+                providerOptions: {
+                    host: env('EMAIL_SMTP_HOST', 'smtp-relay.sendinblue.com'),
+                    port: env('EMAIL_SMTP_PORT', 587),
+                    auth: {
+                        user: env('EMAIL_SMTP_USER'),
+                        pass: env('EMAIL_SMTP_PASS'),
+                    },
+                },
+                settings: {
+                    defaultFrom: env('EMAIL_ADDRESS_FROM'),
+                    defaultReplyTo: env('EMAIL_ADDRESS_REPLY'),
                 },
             },
-            settings: {
-                defaultFrom: env('EMAIL_ADDRESS_FROM'),
-                defaultReplyTo: env('EMAIL_ADDRESS_REPLY'),
-            },
-        },
-        // ...
+            // ...
+        }
     };
 };
 // port 587 ou 465
