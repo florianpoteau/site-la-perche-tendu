@@ -1,24 +1,24 @@
-module.exports = [
-    {
-        method: 'POST',
-        path: '/Contact',
-        handler: 'ContactController.send',
-    }
+// module.exports = [
+//     {
+//         method: 'POST',
+//         path: '/Contact',
+//         handler: 'ContactController.send',
+//     }
 
-]
+// ]
 
-// path: config/route.js
+// // path: config/route.js
 
-module.exports = [
+// module.exports = [
 
-    {
-        "routes": [
-            {
-                "method": "POST",
-                "path": "/email",
-                "handler": "email.send",
-                "config": {}
-            }
-        ]
-    }
-]
+//     {
+//         "routes": [
+//             {
+//                 "method": "POST",
+//                 "path": "/email",
+//                 "handler": "email.send",
+//                 "config": {}
+//             }
+//         ]
+//     }
+// ]
