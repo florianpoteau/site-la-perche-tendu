@@ -3,11 +3,13 @@ module.exports = {
         const { result } = event;
 
         try {
+            console.log(result);
             await strapi.plugins['email'].services.email.send({
-                to: 'florianpoteau59@outlook.fr',
-                from: 'florianpoteau59@outlook.fr',
-                subject: ' Bonjour',
-                text: `Your todo is: ${result.nom}`
+                to: 'florianpoteau59@gmail.com',
+                from: 'florianpoteau59@gmail.com',
+                subject: 'Formulaire de contact',
+                html: `Non/Prenom: ${result.nom} ${result.prenom} <br> Email: ${result.email} <br> Tel: ${result.tel} <br> Texte: ${result.textarea}`,
+
             })
         }
         catch (err) {
