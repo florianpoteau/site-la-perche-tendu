@@ -1,5 +1,5 @@
 html {
-    background-color: #FBB52D;
+
     scroll-behavior: smooth;
 }
 
@@ -146,10 +146,10 @@ nav a:hover {
 
 main {
 
-    background-color: rgb(223 120 20 / 55%);
+    background-color: #b3b3b38f;
     width: 50%;
     margin-top: 2%;
-    margin-right: 8%;
+    margin-left: 12.5%;
     border: 1.5px solid black;
     border-radius: 2%;
     box-shadow: 0px 0px 6px rgb(0 0 0 / 64%);
@@ -176,14 +176,15 @@ main {
 
 .flex3 {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 55px;
+    gap: 60px;
 }
 
 .flex4 {
     display: flex;
     flex-wrap: wrap;
-    gap: 55px;
+    gap: 60px;
     margin-bottom: 6%;
 }
 
@@ -192,6 +193,10 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     width: 110%;
+}
+
+.h2 {
+    color: #1d45d5;
 }
 
 .forNom,
@@ -206,18 +211,30 @@ main {
 
 
 
-input {
+
+
+#nom {
     width: 120%;
     height: 20px;
     box-shadow: inset 0px 0px 2px rgb(0 0 0 / 64%);
 }
 
-.inputTel {
-    width: 97%;
+#tel {
+    width: 101%;
+    height: 20px;
+    box-shadow: inset 0px 0px 2px rgb(0 0 0 / 64%);
 }
 
 #prenom {
-    width: 115%;
+    width: 120%;
+    height: 20px;
+    box-shadow: inset 0px 0px 2px rgb(0 0 0 / 64%);
+}
+
+#email {
+    width: 120%;
+    height: 20px;
+    box-shadow: inset 0px 0px 2px rgb(0 0 0 / 64%);
 }
 
 textarea {
@@ -239,17 +256,27 @@ textarea {
 .bouton1 {
     width: 40%;
     cursor: pointer;
-    height: 100%;
-    margin-left: 15%;
+    height: 30px;
+    margin-left: 30%;
 }
 
 .label1,
 .label2,
 .label3,
-.label4,
 .politique {
     display: block;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.label4 {
+    display: block;
+    margin-bottom: 5.5%;
+    color: white;
+}
+
+.label5 {
+    color: white;
 }
 
 .label5 {
@@ -257,7 +284,7 @@ textarea {
 }
 
 .politique {
-    margin-top: 1%;
+    margin-top: 6%;
 }
 
 /* footer */
@@ -437,6 +464,11 @@ footer a {
         display: block;
     }
 
+    .flex5 {
+        flex-wrap: nowrap;
+
+    }
+
 
     main {
         width: 80%;
@@ -452,9 +484,9 @@ footer a {
         font-size: 18px;
     }
 
-    .inputTel {
+    #tel {
         margin-bottom: 15%;
-        width: 89%;
+        width: 90%;
     }
 
     .forPrenom,
@@ -472,9 +504,9 @@ footer a {
     }
 
     .check {
-        margin-top: 15%;
-        margin-right: 80%;
-        width: 80%;
+
+        width: 9%;
+
     }
 
     .politique {
@@ -503,11 +535,76 @@ footer a {
 
 }
 
+@media screen and (max-width: 600px) {
+
+    /* Body */
+
+    body {
+        font-size: 12px;
+    }
+
+    /* Header */
+
+    nav {
+        height: 60px;
+    }
+
+    nav .main_pages {
+        display: none;
+        flex-direction: column;
+        background: #31455d;
+        height: 220px;
+    }
+
+    nav .main_pages a {
+        width: 100%;
+        background: #5A5766;
+        border-bottom: 1px dotted;
+        color: white;
+        z-index: 99;
+    }
+
+    nav .main_pages a:hover {
+        background: #48435C;
+    }
+
+    label {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .label1,
+    .label2,
+    .label3,
+    .label4,
+    .label5,
+    .politique {
+        display: block;
+        font-size: 18px;
+        width: 100%;
+        cursor: auto;
+    }
+
+    #toggle:checked+.main_pages {
+        display: flex;
+    }
+
+    .p-bienvenue {
+        font-size: 17px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
+
 
     .image {
         margin-left: 24%;
-
     }
 
     .main {
@@ -521,23 +618,37 @@ footer a {
     main {
         margin: auto;
         margin-right: 25%;
+        width: 72%;
     }
 
-    .forPrenom,
-    .forTel {
-        margin-top: 0%;
-    }
+
 
     .forPrenom {
         margin-bottom: 11%;
+    }
+
+    .forNom,
+    .forPrenom,
+    .forMail,
+    .forTel,
+    .label5 {
+        font-size: 18px;
     }
 
     #prenom {
         width: 120%;
     }
 
-    .inputTel {
-        width: 101%;
+    #email {
+        width: 125%;
+    }
+
+    #nom {
+        width: 125%;
+    }
+
+    #tel {
+        width: 93%;
     }
 
 
