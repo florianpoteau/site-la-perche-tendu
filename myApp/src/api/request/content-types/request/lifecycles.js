@@ -8,7 +8,7 @@ module.exports = {
                 to: 'florianpoteau59@gmail.com',
                 from: 'florianpoteau59@gmail.com',
                 subject: 'Formulaire de contact',
-                text: `Non/Prenom: ${result.nom} ${result.prenom} <br> Email: ${result.email} <br> Tel: ${result.tel} <br> Texte: ${result.textarea}`,
+                text: `Nom / Prenom: ${result.nom} ${result.prenom} <br> <br> Email: ${result.email} <br> <br> Tel: ${result.tel} <br> <br> Texte: ${result.textarea}`,
 
             })
         }
