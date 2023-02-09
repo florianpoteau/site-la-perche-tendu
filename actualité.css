@@ -1,5 +1,5 @@
 html {
-    background-color: #FBB52D;
+
     scroll-behavior: smooth;
 }
 
@@ -133,6 +133,10 @@ h1 {
     text-align: center;
 }
 
+#actuh1 {
+    color: #1d45d5;
+}
+
 .flexActu1 {
     display: flex;
     flex-direction: row;
@@ -145,7 +149,7 @@ h1 {
     margin-left: 3%;
     padding: 4px;
     border-radius: 24px;
-    background-color: #f79809;
+    background-color: #959595;
     border: #31455d solid 4px;
 }
 
@@ -162,7 +166,7 @@ h1 {
     height: 50%;
     padding: 4px;
     border-radius: 24px;
-    background-color: #f79809;
+    background-color: #959595;
     border: #31455d solid 4px;
 }
 
@@ -178,7 +182,7 @@ h1 {
     width: 30%;
     padding: 4px;
     border-radius: 24px;
-    background-color: #f79809;
+    background-color: #959595;
     border: #31455d solid 4px;
 }
 
@@ -201,7 +205,7 @@ h1 {
     width: 15%;
     padding: 4px;
     border-radius: 24px;
-    background-color: #f79809;
+    background-color: #959595;
     border: #31455d solid 4px;
 }
 
