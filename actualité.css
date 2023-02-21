@@ -350,6 +350,10 @@ footer a {
 
     /* Header */
 
+    .p-bienvenue {
+        font-size: 17px;
+    }
+
     nav {
         height: 60px;
     }

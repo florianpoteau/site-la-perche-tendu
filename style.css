@@ -208,7 +208,7 @@ form.seek {
 
 .section-liens {
 
-    width: 1200px;
+   
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -750,10 +750,6 @@ label#reche {
 
 /* ===== RESPONSIVE ===== */
 
-
-@media screen and (max-width: 480px) {
-
-
     @media screen and (max-width: 480px) {
 
         /* Body */
@@ -814,6 +810,9 @@ label#reche {
 
     /* === bg main recherche === */
 
+    #services {
+        display: none;
+    }
 
     section .bg-main {
 
