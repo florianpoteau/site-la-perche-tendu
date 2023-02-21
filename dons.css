@@ -1,10 +1,22 @@
-/* ==== CODE CSS ==== */
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: #7e7e7e;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
 
 header.sticky {
 
     width: 100%;
-    background: white;
+    background: #FF5F5F;
 }
+
+
 
 header #head-wrap {
 
@@ -26,7 +38,7 @@ header #head-wrap .wrap {
 .p-bienvenue {
 
     font-family: 'Oswald', sans-serif;
-    color: #31455d;
+    color: #eceff3;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;

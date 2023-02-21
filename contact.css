@@ -5,16 +5,18 @@ html {
 
 body {
     margin: 0;
+    color: #7e7e7e;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
 }
-
-/* ==== HEADER ===== */
-
 
 header.sticky {
 
     width: 100%;
     background: #FF5F5F;
 }
+
+
 
 header #head-wrap {
 
@@ -33,10 +35,6 @@ header #head-wrap .wrap {
 
 }
 
-span {
-    color: rgb(198, 198, 243);
-}
-
 .p-bienvenue {
 
     font-family: 'Oswald', sans-serif;
@@ -53,36 +51,19 @@ span {
     justify-content: center;
 }
 
-.img-logo {
-    margin-top: -10px;
-    width: 140px;
-}
-
 .home-img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-img.seek-img {
-
-    display: block;
-    max-width: 100%;
-    height: auto;
-    width: 20px;
-    padding: 10px;
-
-}
-
 .bienvenue {
     flex: 1;
     text-align: center;
 
+
 }
 
-.checkHead {
-    box-shadow: none;
-}
 
 nav {
     /* margin: 100px auto; */
@@ -104,7 +85,7 @@ nav .main_pages a {
     justify-content: center;
     height: 60px;
     text-decoration: none;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 16px;
     color: white;
 }
@@ -130,6 +111,11 @@ nav a:hover {
 .icons a:hover {
 
     color: #fbb52d;
+}
+
+label,
+#toggle {
+    display: none;
 }
 
 /* body */

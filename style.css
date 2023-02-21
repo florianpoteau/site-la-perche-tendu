@@ -1,23 +1,22 @@
 html {
 
-    background-color: rgb(251, 246, 236);
     scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
+    color: #7e7e7e;
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
 }
 
-/* ==== HEADER ===== */
-
-
 header.sticky {
 
     width: 100%;
-    background: url(/images/rouge.jpeg);
+    background: #FF5F5F;
 }
+
+
 
 header #head-wrap {
 
@@ -34,45 +33,6 @@ header #head-wrap .wrap {
     align-items: center;
     justify-content: space-between;
 
-}
-
-span {
-    color: blue;
-}
-
-/* clignotant  */
-
-blink {
-    -webkit-animation: 2s linear infinite condemed_blink_effect;
-    animation: 2s linear infinite condemed_blink_effect;
-}
-
-@-webkit-keyframes condemed_blink_effect {
-    0% {
-        visibility: hidden;
-    }
-
-    50% {
-        visibility: hidden;
-    }
-
-    100% {
-        visibility: visible;
-    }
-}
-
-@keyframes condemed_blink_effect {
-    0% {
-        visibility: hidden;
-    }
-
-    50% {
-        visibility: hidden;
-    }
-
-    100% {
-        visibility: visible;
-    }
 }
 
 .p-bienvenue {
@@ -92,27 +52,13 @@ blink {
 }
 
 .img-logo {
-    margin-top: -10px;
-    width: 90px;
-    border-radius: 50%;
+width: 25%;
 }
 
-.home-img,
-.home-img2,
-.home-img3 {
+.home-img {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-img.seek-img {
-
-    display: block;
-    max-width: 100%;
-    height: auto;
-    width: 20px;
-    padding: 10px;
-
 }
 
 .bienvenue {
@@ -122,11 +68,12 @@ img.seek-img {
 
 }
 
+
 nav {
     /* margin: 100px auto; */
     width: 100%;
     height: 60px;
-    background: url("/images/blue.jpeg")
+    background: #48435C;
 }
 
 nav .main_pages {
@@ -136,20 +83,21 @@ nav .main_pages {
 }
 
 nav .main_pages a {
-    width: 15%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 60px;
     text-decoration: none;
-    font-family: 'Roboto Slab', serif;
-    font-size: 12px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 16px;
     color: white;
 }
 
 nav a:hover {
-    font-size: 14px;
-    color: orange;
+
+    background: #fbb52d;
+    color: #303030
 }
 
 
@@ -162,12 +110,16 @@ nav a:hover {
 .icons a {
     color: #31455d;
     text-decoration: none;
-
 }
 
 .icons a:hover {
 
     color: #fbb52d;
+}
+
+label,
+#toggle {
+    display: none;
 }
 
 
