@@ -276,8 +276,8 @@ textarea {
 /* footer */
 
 footer {
-    font-family: 'Roboto Slab', serif;
     margin-top: 4%;
+    font-family: 'Roboto Slab', serif;
 }
 
 .footerflex {
@@ -337,7 +337,6 @@ footer a {
 .footercopyright {
     text-align: center;
     flex: 1;
-    background-color: #fbb52D;
     color: white;
 }
 
@@ -363,6 +362,39 @@ footer a {
 
 .event-footer {
 
+    background-color: #31455d;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 15px;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+
+}
+
+.event-footer img {
+    width: 20%;
+}
+
+
+
+.event-footer:hover {
+
+    background-color: #31455d;
+    color: #fbb52D;
+    text-decoration: none;
+    padding: 14px 15px;
+    width: 20%;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+}
+
+/* ==== RESPONSIVE A VENIR ====
+@florian */
+
+
+
+.event-footer {
+
     background-color: #5082beb3;
     border-radius: 14px;
     color: #fff;
@@ -374,15 +406,6 @@ footer a {
 
 }
 
-.event-footer:hover {
-
-    background-color: #0752ad;
-    color: #fbb52D;
-    text-decoration: none;
-    padding: 14px 15px;
-    width: 20%;
-    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
-}
 
 /* ==== RESPONSIVE A VENIR ====
 @florian */
@@ -419,6 +442,7 @@ footer a {
     nav .main_pages a:hover {
         background: #48435C;
     }
+    
 
     label {
         width: 30px;
@@ -434,6 +458,8 @@ footer a {
     #toggle:checked+.main_pages {
         display: flex;
     }
+
+    
 
     /* Body */
 

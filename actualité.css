@@ -277,7 +277,6 @@ footer a {
 .footercopyright {
     text-align: center;
     flex: 1;
-    background-color: #fbb52D;
     color: white;
 }
 
@@ -345,16 +344,6 @@ footer a {
     text-align: center;
     box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
 
-}
-
-.event-footer:hover {
-
-    background-color: #0752ad;
-    color: #fbb52D;
-    text-decoration: none;
-    padding: 14px 15px;
-    width: 20%;
-    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
 }
 
 @media screen and (max-width: 480px) {
