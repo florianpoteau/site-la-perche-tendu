@@ -123,6 +123,7 @@ label,
 .image1 {
     width: 50%;
     margin-left: 25%;
+    margin-top: 5%;
 }
 
 hr {
@@ -151,12 +152,14 @@ h1 {
     border-radius: 24px;
     background-color: #959595;
     border: #31455d solid 4px;
+    flex: 1;
 }
 
 .textActu1 {
     margin-top: 5%;
     margin-left: 2%;
     width: 20%;
+    flex: 2;
 }
 
 .imageactu2 {
@@ -168,51 +171,57 @@ h1 {
     border-radius: 24px;
     background-color: #959595;
     border: #31455d solid 4px;
+    flex: 3;
 }
 
 .textActu2 {
-    margin-top: 8%;
+    margin-top: 5%;
     margin-left: 2%;
     width: 20%;
+    flex: 4;
 }
 
 .imageactu3 {
     margin-top: 10%;
     margin-left: 3%;
-    width: 30%;
+    width: 25%;
+    height: 15em;
     padding: 4px;
     border-radius: 24px;
     background-color: #959595;
     border: #31455d solid 4px;
+    flex: 1;
 }
 
 .flexActu2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .textActu3 {
     margin-top: 10%;
-    margin-left: 2%;
-    width: 20%;
+    margin-left: 3%;
+    flex: 2;
+    margin-right: 3%;
 }
 
 .imageactu4 {
     margin-top: 10%;
-    margin-left: 5%;
-    width: 15%;
+    height: 25em;
     padding: 4px;
     border-radius: 24px;
     background-color: #959595;
     border: #31455d solid 4px;
+    flex: 3;
 }
 
 .textActu4 {
     margin-top: 10%;
-    margin-left: 2%;
-    width: 20%;
+    margin-left: 3%;
+    width: 15%;
+    flex: 4;
 }
 
 footer {
@@ -356,6 +365,7 @@ footer a {
 
     nav {
         height: 60px;
+        
     }
 
     nav .main_pages {
@@ -480,7 +490,7 @@ footer a {
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 1000px) {
+@media screen and (min-width: 481px) and (max-width: 800px) {
 
     /* Body */
 
