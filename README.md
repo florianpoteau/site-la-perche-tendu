@@ -1,4 +1,4 @@
-# site-la-perche-tendu
+# site-la-perche-tendue
 
 Projet réalisé a l'aide de nodeJS, strapi, html, css et javascript
 
